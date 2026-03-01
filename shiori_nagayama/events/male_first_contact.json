@@ -1,0 +1,94 @@
+{
+    "event_id": "shiori_male_first_contact",
+    "title_ja": "初めての連絡",
+    "title_en": "First Contact",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "スマホにメッセージが届いた。",
+            "text_en": "A message arrived on my phone."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "text_ja": "見知らぬ番号からのメッセージだった。",
+            "text_en": "It was from an unknown number."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "こんにちは。永山です。手の具合はどう？",
+            "text_en": "Hello. This is Nagayama. How's your hand?"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...永山さん。この間の看護師さんだ。）",
+            "text_en": "(...Nagayama-san. That nurse from the other day.)"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "text_ja": "俺は素直に返信した。",
+            "text_en": "I replied honestly."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "おかげさまでだいぶ良くなりました。連絡ありがとうございます。",
+            "text_en": "It's gotten much better, thanks to you. Thank you for reaching out."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "text_ja": "すぐに既読がついた。",
+            "text_en": "She read it almost instantly."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "よかった！安心したよ。でも無理しないでね。",
+            "text_en": "That's great! What a relief. But don't push yourself."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。ありがとうございます。",
+            "text_en": "Yes. Thank you."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（よし、と。）",
+            "text_en": "(There.)"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なんかすごい律儀な人なんだな。）",
+            "text_en": "(She's really conscientious.)"
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "text_ja": "短い連絡だったが、妙に印象に残った。",
+            "text_en": "It was a brief exchange, but it left a strange impression on me."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "end",
+            "flags_set": ["shiori_male_first_contact_done"]
+        }
+    ]
+}

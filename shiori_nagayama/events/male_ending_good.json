@@ -1,0 +1,102 @@
+{
+    "event_id": "shiori_male_ending_good",
+    "title_ja": "穏やかな関係",
+    "title_en": "A Warm Relationship",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "今日はありがとうね。",
+            "text_en": "Thank you for today."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "いえ。大丈夫です。",
+            "text_en": "Not at all."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "なんか、こうして会うの定番になっちゃったね。",
+            "text_en": "You know, meeting up like this has kind of become a routine."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "確かに。",
+            "text_en": "It really has."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "最近、いろんなことがあったな〜って思って。",
+            "text_en": "I've been thinking — so much has happened lately."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "そうですね。",
+            "text_en": "Yeah."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "最初はなんかぎこちなかったのに、いつの間にか普通にこうして話してて。",
+            "text_en": "At first things felt a bit awkward, but now here we are just talking naturally."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "なんだか最近楽しいんだ。",
+            "text_en": "Lately things have just been enjoyable."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "よかったです。俺も楽しいです。",
+            "text_en": "That's great. I'm enjoying it too."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "ありがとう。これからもよろしくね。",
+            "text_en": "Thank you. I'm counting on you from here on."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "こちらこそ。",
+            "text_en": "Likewise."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（穏やかで、暖かい。こういう関係が続けばいいな。）",
+            "text_en": "(...Calm and warm. I hope this continues.)"
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "end"
+        }
+    ]
+}

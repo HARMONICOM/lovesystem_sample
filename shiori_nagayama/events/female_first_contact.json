@@ -1,0 +1,89 @@
+{
+    "event_id": "shiori_female_first_contact",
+    "title_ja": "初めての連絡",
+    "title_en": "First Contact",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "スマホにメッセージが届いた。",
+            "text_en": "A message came in on my phone."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "text_ja": "見知らぬ番号からのメッセージだった。",
+            "text_en": "It was from an unknown number."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "こんにちは。先日ショッピングモールでぶつかってしまった永山です。手の具合はどう？",
+            "text_en": "Hello. This is Nagayama, the one who bumped into you at the shopping mall the other day. How's your hand?"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...永山さん。名刺に書いてあった連絡先だ。）",
+            "text_en": "(...Nagayama-san. The contact on her business card.)"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "text_ja": "私は素直に返信した。",
+            "text_en": "I replied honestly."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "おかげさまでだいぶ良くなりました。連絡ありがとうございます。",
+            "text_en": "It's gotten much better, thanks to you. Thank you for reaching out."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "text_ja": "すぐに既読がついた。",
+            "text_en": "She read it almost immediately."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "よかった。もしよかったら今度お詫びさせてね。",
+            "text_en": "That's a relief. If you'd like, let me make it up to you sometime."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。でもお気になさらず。",
+            "text_en": "Sure. But please don't worry about it."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "ありがとう。",
+            "text_en": "Thank you."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（永山さんいい人だな...また会えるといいな。）",
+            "text_en": "(...Nagayama-san seems like a kind person... I hope we meet again.)"
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "end",
+            "flags_set": ["shiori_female_first_contact_done"]
+        }
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "id": "shiori_nagayama",
+    "family_name_ja": "永山",
+    "family_name_en": "Nagayama",
+    "given_name_ja": "詩織",
+    "given_name_en": "Shiori",
+    "age": 23,
+    "default_scale": 1.6,
+    "gender": "female",
+    "target_player_gender": [
+        "male",
+        "female"
+    ],
+    "relationship_type": {
+        "male": "romance",
+        "female": "friendship"
+    },
+    "description_ja": "街の病院に勤務する看護師。性格は明るく割とサバサバしているが、怪我している人を見ると放っておけないタイプ。",
+    "description_en": "A nurse who works at a hospital. She is a cheerful and somewhat assertive person, but she cannot stand to see people in pain. She is a shopaholic and loves to buy clothes. She is a good friend of the protagonist.",
+    "personality_tags_ja": [
+        "明るい",
+        "サバサバ",
+        "面倒見がいい",
+        "看護師",
+        "裁縫が好き"
+    ],
+    "personality_tags_en": [
+        "Cheerful",
+        "Assertive",
+        "Good at taking care of others",
+        "Nurse",
+        "Loves sewing"
+    ],
+    "hobby_ja": [
+        "服飾関係",
+        "裁縫"
+    ],
+    "hobby_en": [
+        "Clothes",
+        "Sewing"
+    ],
+    "favorite_things_ja": [
+        "服飾関係",
+        "裁縫",
+        "酒"
+    ],
+    "favorite_things_en": [
+        "Clothes",
+        "Knitting",
+        "Drinking"
+    ],
+    "dislike_things_ja": [
+        "ウジウジした人",
+        "病気"
+    ],
+    "dislike_things_en": [
+        "Ugly people",
+        "Sick people"
+    ],
+    "initial_stats": {
+        "male": {
+            "affection": 10,
+            "intimacy": 10,
+            "relationship": "acquaintance"
+        },
+        "female": {
+            "affection": 10,
+            "intimacy": 10,
+            "relationship": "acquaintance"
+        }
+    },
+    "stat_ranges": {
+        "affection": {
+            "min": -100,
+            "max": 100
+        },
+        "intimacy": {
+            "min": -100,
+            "max": 100
+        }
+    },
+    "portraits": {
+        "spring": {
+            "casual": {
+                "normal": "portraits/spring/casual/normal.png",
+                "happy": "portraits/spring/casual/happy.png",
+                "sad": "portraits/spring/casual/sad.png",
+                "worried": "portraits/spring/casual/worried.png",
+                "surprised": "portraits/spring/casual/surprised.png",
+                "shy": "portraits/spring/casual/shy.png",
+                "crying": "portraits/spring/casual/crying.png",
+                "smile": "portraits/spring/casual/smile.png",
+                "serious": "portraits/spring/casual/serious.png",
+                "angry": "portraits/spring/casual/angry.png",
+                "relieved": "portraits/spring/casual/relieved.png"
+            }
+        }
+    },
+    "unlock_conditions": {
+        "male": true,
+        "female": true
+    },
+    "cg_gallery": {
+        "shiori_accident": {
+            "path": {
+                "default": "cg/shiori_accident.png"
+            },
+            "title_ja": "介抱してくれる永山さん",
+            "title_en": "Shiori Helping the Protagonist",
+            "description_ja": "ぶつかって怪我をした主人公を介抱する永山さん",
+            "description_en": "Shiori helping the protagonist after bumping into each other"
+        },
+        "shiori_cafe": {
+            "path": {
+                "default": "cg/shiori_cafe.png"
+            },
+            "title_ja": "カフェの永山さん",
+            "title_en": "Shiori at the Cafe",
+            "description_ja": "カフェでくつろぐ永山さん",
+            "description_en": "Shiori relaxing at the cafe"
+        },
+        "shiori_cinema": {
+            "path": {
+                "default": "cg/shiori_cinema.png"
+            },
+            "title_ja": "映画を見る永山さん",
+            "title_en": "Shiori at the Movie Theater",
+            "description_ja": "映画館で映画を楽しむ永山さん",
+            "description_en": "Shiori enjoying a movie at the movie theater"
+        },
+        "shiori_craft": {
+            "path": {
+                "default": "cg/shiori_craft.png"
+            },
+            "title_ja": "手芸用品店の永山さん",
+            "title_en": "Shiori at the Craft Store",
+            "description_ja": "手芸用品店で目を輝かせる永山さん",
+            "description_en": "Shiori's eyes lighting up at the craft store"
+        },
+        "shiori_mall_cafe": {
+            "path": {
+                "default": "cg/shiori_mall_cafe.png"
+            },
+            "title_ja": "モール内カフェの永山さん",
+            "title_en": "Shiori at the Mall Cafe",
+            "description_ja": "モール内カフェで向かい合う永山さん",
+            "description_en": "Shiori sitting across from you at the mall cafe"
+        },
+        "shiori_park": {
+            "path": {
+                "default": "cg/shiori_park.png"
+            },
+            "title_ja": "公園のベンチの永山さん",
+            "title_en": "Shiori at the Park Bench",
+            "description_ja": "公園のベンチに座る永山さん",
+            "description_en": "Shiori sitting on a park bench"
+        },
+        "shiori_restaurant": {
+            "path": {
+                "default": "cg/shiori_restaurant.png"
+            },
+            "title_ja": "ファミレスの永山さん",
+            "title_en": "Shiori at the Restaurant",
+            "description_ja": "ファミレスで食事を楽しむ永山さん",
+            "description_en": "Shiori enjoying a meal at the family restaurant"
+        },
+        "shiori_riverside": {
+            "path": {
+                "default": "cg/shiori_riverside.png"
+            },
+            "title_ja": "河川敷の永山さん",
+            "title_en": "Shiori by the Riverside",
+            "description_ja": "河川敷のベンチに座る永山さん",
+            "description_en": "Shiori sitting on a bench by the riverside"
+        },
+        "shiori_true_end": {
+            "path": {
+                "default": "cg/shiori_true_end.png"
+            },
+            "title_ja": "永山さんとこれから",
+            "title_en": "A Future with Shiori",
+            "description_ja": "永山さんとの未来を描いたトゥルーエンドCG",
+            "description_en": "The true ending CG depicting a future with Shiori"
+        }
+    },
+    "bgm_gallery": {
+        "shiori_theme": {
+            "path": "audio/shiori.mp3",
+            "title_ja": "詩織のテーマ",
+            "title_en": "Shiori's Theme",
+            "loop": true,
+            "volume": 1.1
+        },
+        "shiori_dating": {
+            "path": "audio/shiori_dating.mp3",
+            "title_ja": "詩織と付き合い始めてからのテーマ",
+            "title_en": "Shiori and Dating Theme",
+            "loop": true,
+            "volume": 1.0
+        }
+    },
+    "theme_bgm": "shiori_theme"
+}

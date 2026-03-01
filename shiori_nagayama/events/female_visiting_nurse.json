@@ -1,0 +1,257 @@
+{
+    "event_id": "shiori_female_visiting_nurse",
+    "title_ja": "訪問看護での出来事",
+    "title_en": "An Incident During Home Care",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "学校帰りに公園を通りかかると、ベンチに見慣れたシルエットが見えた。",
+            "text_en": "On my way home from school, I passed through the park and spotted a familiar figure on a bench."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "image",
+            "cg": "shiori_park"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...永山さん？）",
+            "text_en": "(...Is that Nagayama-san?)"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "text_ja": "近づいてみると、永山さんが少しぼんやりとした表情でベンチに腰を下ろしていた。",
+            "text_en": "As I got closer, I saw Nagayama-san sitting on the bench with a distant expression."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん？",
+            "text_en": "Nagayama-san?"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.surprised",
+            "text_ja": "あ...！{{player.family_name}}さん。",
+            "text_en": "Oh...! {{player.family_name}}-san."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "こんなところで。仕事帰りですか？",
+            "text_en": "What are you doing here? Coming home from work?"
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "はい。...ちょっと、頭冷やしたくて。",
+            "text_en": "Yes. ...I just needed to clear my head a bit."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "text_ja": "その言葉に引っかかりを感じた。",
+            "text_en": "Something in those words caught my attention."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "何かありましたか？",
+            "text_en": "Did something happen?"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.sad",
+            "text_ja": "...ちょっとね。",
+            "text_en": "...A little."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "text_ja": "しばらく間があった。私は彼女の隣に座り、特に急かさず待った。",
+            "text_en": "There was a pause. I sat down beside her and waited without rushing."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.sad",
+            "text_ja": "今日、担当していた患者さんが亡くなって。",
+            "text_en": "Today... one of my patients passed away."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "...それは。",
+            "text_en": "...That's..."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "仕事だから、覚悟はしてたんだよ。でも、いざそうなると...なんか、呆然としちゃって。",
+            "text_en": "I know it's part of the job, and I was prepared for it. But when it actually happens... I just felt numb."
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "辛いですね。",
+            "text_en": "That must be so hard."
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.serious",
+            "text_ja": "その人、すごくおちゃめなおじいちゃんで。毎回私の裁縫の話を聞いてくれて、できたら見せてね、って言ってたんだよね。",
+            "text_en": "He was such a funny old man. Every time I visited, he'd listen to me talk about my sewing, and he'd say 'Show me when it's done.'"
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "...",
+            "text_en": "..."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.sad",
+            "text_ja": "間に合わなかったな、って。",
+            "text_en": "I didn't make it in time."
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "dialogue",
+            "text_ja": "彼女の声が、少し揺れた。",
+            "text_en": "Her voice wavered just a little."
+        },
+        {
+            "scene_id": "scene_021",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "でも、永山さんがずっとそばにいたんでしょう。",
+            "text_en": "But you were with him until the end, weren't you."
+        },
+        {
+            "scene_id": "scene_022",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "...そうだね。最後まで一緒にいられたのは、よかったと思ってる。",
+            "text_en": "...Yeah. I'm glad I could be there with him until the end."
+        },
+        {
+            "scene_id": "scene_023",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "それはきっと、その人にとっても嬉しかったと思う。",
+            "text_en": "I think that must have meant a lot to him too."
+        },
+        {
+            "scene_id": "scene_024",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "...そうだといいな。",
+            "text_en": "...I hope so."
+        },
+        {
+            "scene_id": "scene_025",
+            "type": "image",
+            "background": "park"
+        },
+        {
+            "scene_id": "scene_026",
+            "type": "dialogue",
+            "text_ja": "しばらく、二人でそのまま公園の景色を眺めた。",
+            "text_en": "For a while, the two of us just sat and looked at the park."
+        },
+        {
+            "scene_id": "scene_027",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.relieved",
+            "text_ja": "ありがとう。なんか、話せてよかった。",
+            "text_en": "Thank you. I'm glad I got to talk about it."
+        },
+        {
+            "scene_id": "scene_028",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "私でよければいつでも。",
+            "text_en": "Anytime, if it helps to talk to me."
+        },
+        {
+            "scene_id": "scene_029",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "{{player.family_name}}さんって、ほんとにいつもそう言ってくれるよね。",
+            "text_en": "You always say that, {{player.family_name}}-san."
+        },
+        {
+            "scene_id": "scene_030",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "本心ですよ。",
+            "text_en": "I mean it."
+        },
+        {
+            "scene_id": "scene_031",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.shy",
+            "text_ja": "...うれしいな。",
+            "text_en": "...That makes me happy."
+        },
+        {
+            "scene_id": "scene_032",
+            "type": "dialogue",
+            "text_ja": "彼女は少し照れたように笑い、立ち上がった。",
+            "text_en": "She laughed a little, as if embarrassed, and stood up."
+        },
+        {
+            "scene_id": "scene_033",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "じゃあ、帰るね。今日はありがとう。",
+            "text_en": "Alright, I'll head home. Thank you for today."
+        },
+        {
+            "scene_id": "scene_034",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（ちゃんと笑ってくれてよかった。）",
+            "text_en": "(...I'm glad she was able to smile.)"
+        },
+        {
+            "scene_id": "scene_035",
+            "type": "end",
+            "flags_set": ["shiori_female_visiting_nurse_done"],
+            "stat_changes": {
+                "affection": 4,
+                "intimacy": 4
+            }
+        }
+    ]
+}

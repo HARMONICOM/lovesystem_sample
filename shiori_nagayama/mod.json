@@ -1,0 +1,14 @@
+{
+    "mod_id": "shiori_nagayama",
+    "mod_version": "1.0.0",
+    "mod_name": "永山詩織",
+    "mod_name_en": "Shiori Nagayama",
+    "author": "Love System Official",
+    "description": "街の病院に勤務する看護師。性格は明るく割とサバサバしているが、怪我している人を見ると放っておけないタイプ。",
+    "description_en": "A nurse who works at a hospital. She is a cheerful and somewhat assertive person, but she cannot stand to see people in pain. She is a shopaholic and loves to buy clothes. She is a good friend of the protagonist.",
+    "min_game_version": "1.0.3",
+    "max_game_version": "1.0.99",
+    "character_file": "character.json",
+    "events_metadata_file": "events.json",
+    "events_directory": "events"
+}

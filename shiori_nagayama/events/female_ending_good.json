@@ -1,0 +1,115 @@
+{
+    "event_id": "shiori_female_ending_good",
+    "title_ja": "大切な友達",
+    "title_en": "A Precious Friend",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "location_change",
+            "location": "riverside"
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "今日はありがとうね。",
+            "text_en": "Thanks for today."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "いえ。大丈夫です。",
+            "text_en": "Of course. Any time."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "なんか、こうして会うの定番になっちゃったね。",
+            "text_en": "It's become a bit of a routine for us, hasn't it."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "確かに。",
+            "text_en": "It really has."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "最近、いろんなことがあったな〜って思って。",
+            "text_en": "Looking back, a lot has happened lately."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "私もですよ。",
+            "text_en": "Same for me."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "最初はなんかぎこちなかったのに、いつの間にか普通にこうして話してて。",
+            "text_en": "At first things were a little awkward, but now we just talk like this naturally."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "なんだか最近楽しいんだ。",
+            "text_en": "I've been really happy lately."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "もっといろいろお話したいね。服選んだりとか、裁縫したりもしたい。",
+            "text_en": "I want to do more things together. Shopping for clothes, knitting..."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "私もしたいです。",
+            "text_en": "Me too."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "これからもよろしくね。",
+            "text_en": "Let's keep being friends."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "こちらこそ。",
+            "text_en": "Likewise."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（穏やかで、暖かい。こういう関係が続けばいいな。）",
+            "text_en": "(...Calm and warm. I hope this kind of relationship lasts.)"
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "end"
+        }
+    ]
+}

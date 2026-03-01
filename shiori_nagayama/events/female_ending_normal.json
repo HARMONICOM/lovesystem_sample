@@ -1,0 +1,83 @@
+{
+    "event_id": "shiori_female_ending_normal",
+    "title_ja": "気軽に話せる仲",
+    "title_en": "Easy Company",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "location_change",
+            "location": "convenience_store"
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "text_ja": "コンビニで永山さんとばったり会った。",
+            "text_en": "I ran into Nagayama-san at the convenience store."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "あ、{{player.family_name}}さん。",
+            "text_en": "Oh, {{player.family_name}}-san."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん。",
+            "text_en": "Nagayama-san."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "最近どう？",
+            "text_en": "How have you been lately?"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "まあ普通です。永山さんは？",
+            "text_en": "Pretty normal, I guess. You?"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "私も...そういえば、また何かあったら連絡してね。",
+            "text_en": "Same here... Oh, and if anything comes up, feel free to reach out."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。永山さんも。",
+            "text_en": "Of course. You too."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "うん。じゃあ、また。",
+            "text_en": "Sure. See you around."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（気軽に話せる仲になったかな。それはそれで、悪くない。）",
+            "text_en": "(...We became the kind of people who can chat easily. That's not so bad.)"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "end"
+        }
+    ]
+}

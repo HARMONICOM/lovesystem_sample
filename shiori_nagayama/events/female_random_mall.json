@@ -1,0 +1,95 @@
+{
+    "event_id": "shiori_female_random_mall",
+    "title_ja": "ショッピングモールで鉢合わせ",
+    "title_en": "Bumping Into Her at the Mall",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "ショッピングモールを歩いていると、服のコーナーで真剣な顔をしている永山さんを見つけた。",
+            "text_en": "I was walking through the shopping mall when I spotted Nagayama-san at the clothing section, looking very focused."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん。",
+            "text_en": "Nagayama-san."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.surprised",
+            "text_ja": "わ、{{player.family_name}}さん！びっくりした。",
+            "text_en": "Oh, {{player.family_name}}-san! You startled me."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "買い物ですか？",
+            "text_en": "Shopping?"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "そう。このコートどっちがいいか迷ってて。",
+            "text_en": "Yeah. I can't decide which coat to get."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "text_ja": "見せてもらうと、どちらもよく似合いそうだった。",
+            "text_en": "Looking at them, both seemed like they'd suit her well."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "どっちも似合いそうですけどね。",
+            "text_en": "Honestly, both look good on you."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "{{player.family_name}}さんうまいこと言うね。",
+            "text_en": "You're very diplomatic, {{player.family_name}}-san."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "本当のことですよ。",
+            "text_en": "I mean it."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "じゃあ、一個買ったらもう一個は今度。また来る。じゃあね。",
+            "text_en": "Alright, I'll get one now and come back for the other. See you!"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（また来るって言ってたな。）",
+            "text_en": "(...She said she'd be back.)"
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "end",
+            "stat_changes": {
+                "affection": 3,
+                "intimacy": 2
+            }
+        }
+    ]
+}

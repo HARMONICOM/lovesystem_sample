@@ -1,0 +1,178 @@
+{
+    "event_id": "shiori_male_date_standup",
+    "title_ja": "デートすっぽかし",
+    "title_en": "Standing Her Up",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（あ、詩織さんからの電話だ。）",
+            "text_en": "(...It's a call from Shiori-san.)"
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.angry",
+            "text_ja": "...出た。",
+            "text_en": "...You picked up."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.angry",
+            "text_ja": "待ったんだよ、私。一時間以上。",
+            "text_en": "I waited, you know. Over an hour."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "...ごめんなさい。",
+            "text_en": "...I'm sorry."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.angry",
+            "text_ja": "連絡くらいできたじゃない。何かあったとしても、一言あれば全然違うのに。",
+            "text_en": "You could have at least sent a message. Even one word would have made all the difference."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "本当にそうです。言い訳もできない。",
+            "text_en": "You're right. I have no excuse."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.serious",
+            "text_ja": "なんで連絡しなかったの。",
+            "text_en": "Why didn't you contact me?"
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "...うまく言えないけど、気づいたら時間が経ってて。それでも連絡できなかったのは俺が悪い。",
+            "text_en": "...I can't explain it well, but time just slipped by before I knew it. But it's still my fault for not reaching out."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "text_ja": "しばらく沈黙があった。",
+            "text_en": "Silence stretched between us."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.sad",
+            "text_ja": "楽しみにしてたのに。",
+            "text_en": "I was looking forward to it."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "text_ja": "その一言が、胸に刺さった。",
+            "text_en": "Those words hit me hard."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "...ごめんなさい。本当に。",
+            "text_en": "...I'm really sorry. Truly."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "...反省してるのはわかった。",
+            "text_en": "...I can tell you feel bad about it."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.serious",
+            "text_ja": "でも、次また同じことしたら、ちょっと考えるよ。",
+            "text_en": "But if this happens again, I'll have to think things through."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "しません。絶対に。",
+            "text_en": "I won't. I promise."
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "...信じる、一応。",
+            "text_en": "...I'll take your word for it, for now."
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "埋め合わせさせてください。",
+            "text_en": "Please let me make it up to you."
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "...する。絶対させる。",
+            "text_en": "...I will. You can count on it."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（怒られて当然だ。でも、ちゃんと向き合ってくれた。）",
+            "text_en": "(...I deserved that. But she still faced me directly.)"
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "じゃあ、おやすみ。",
+            "text_en": "Goodnight then."
+        },
+        {
+            "scene_id": "scene_021",
+            "type": "dialogue",
+            "text_ja": "電話が切れた。",
+            "text_en": "The call ended."
+        },
+        {
+            "scene_id": "scene_022",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...次は絶対に、ちゃんとする。）",
+            "text_en": "(...Next time, I'll do right by her. Absolutely.)"
+        },
+        {
+            "scene_id": "scene_023",
+            "type": "end",
+            "flags_set": ["shiori_male_date_main_done"],
+            "stat_changes": {
+                "affection": -20,
+                "intimacy": -20
+            }
+        }
+    ]
+}

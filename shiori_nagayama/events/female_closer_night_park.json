@@ -1,0 +1,153 @@
+{
+    "event_id": "shiori_female_closer_night_park",
+    "title_ja": "夜の公園",
+    "title_en": "Night at the Park",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "夜、詩織さんから連絡が来た。",
+            "text_en": "Late in the evening, a message came from Shiori-san."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "外の空気吸いたい気分で。一緒に来ない？",
+            "text_en": "I feel like getting some fresh air. Want to come with me?"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "いいですよ。",
+            "text_en": "Sure."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（公園に行こう。）",
+            "text_en": "(...Let's head to the park.)"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "location_change",
+            "location": "park"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "ごめんね来てもらっちゃって。",
+            "text_en": "Sorry for dragging you out."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "大丈夫です。",
+            "text_en": "It's fine."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "いいね、夜の公園。なんか落ち着く。",
+            "text_en": "The park at night is nice. It's calming somehow."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "そうですね。",
+            "text_en": "Yeah, it is."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "今日、ちょっとだけ疲れちゃって。でも{{player.given_name}}ちゃんと会ったらすっきりした。",
+            "text_en": "I was feeling a bit worn out today. But seeing you, {{player.given_name}}-chan, cleared my head."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "それはよかった。",
+            "text_en": "I'm glad."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "{{player.given_name}}ちゃんって、なんか安心するんだよね。いつも。",
+            "text_en": "You always make me feel at ease, {{player.given_name}}-chan."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "安心、か。",
+            "text_en": "At ease, huh."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "いい意味で。",
+            "text_en": "In the best way."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...私も、詩織さんといると安心する。）",
+            "text_en": "(...I feel at ease with her too.)"
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "text_ja": "しばらく、ただそこにいた。言葉はなくても、それで十分だった。",
+            "text_en": "For a while, we just sat there. No words needed — it was enough."
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "そろそろ帰ろうか。",
+            "text_en": "Shall we head back?"
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "うん。",
+            "text_en": "Yeah."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "今日もありがとう。",
+            "text_en": "Thanks again for today."
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "end",
+            "stat_changes": {
+                "affection": 2,
+                "intimacy": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "event_id": "shiori_male_date_promise",
+    "title_ja": "デートの約束",
+    "title_en": "Date Promise",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "詩織さんからメッセージが届いた。",
+            "text_en": "A message came in from Shiori-san."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "{{player.given_name}}くん、今度のお休みって空いてる？",
+            "text_en": "{{player.given_name}}, are you free on your next day off?"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "空いてますよ。",
+            "text_en": "I'm free."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "じゃあ、どこか行かない？二人で。",
+            "text_en": "Then let's go somewhere together."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "いいですよ、どこに行きたいですか？",
+            "text_en": "Sounds good. Where do you want to go?"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "映画とか、どうかな。あとご飯。",
+            "text_en": "What about a movie? And dinner after."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "いいですね。",
+            "text_en": "That sounds great."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "決まり。じゃあ28日の日曜日、お昼に映画館で。楽しみにしてる。",
+            "text_en": "It's a date then. Sunday the 28th, noon at the movie theater. I'm looking forward to it!"
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。よろしくお願いします。",
+            "text_en": "Absolutely. Looking forward to it."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（詩織さんとデートだ！）",
+            "text_en": "(...A date with Shiori-san!)"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "end",
+            "flags_set": ["shiori_male_date_promise"],
+            "stat_changes": {
+                "affection": 3,
+                "intimacy": 3
+            }
+        }
+    ]
+}

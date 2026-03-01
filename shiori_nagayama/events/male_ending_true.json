@@ -1,0 +1,147 @@
+{
+    "event_id": "shiori_male_ending_true",
+    "title_ja": "ずっとそばにいたい",
+    "title_en": "Always By Your Side",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "詩織さんとショッピングモールに来た。",
+            "text_en": "I came to the shopping mall with Shiori-san."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "最近、いろんなことがあったな〜って思って。",
+            "text_en": "I've been thinking — so much has happened lately."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "そうですね。",
+            "text_en": "Yeah, it has."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "{{player.given_name}}くんと最初に会ったのって、もうかなり前だよね。",
+            "text_en": "It feels like quite a while ago now, when we first met, {{player.given_name}}."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "ここですね。",
+            "text_en": "Right here, wasn't it."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "私がぶつかって、{{player.given_name}}くんが転んで。",
+            "text_en": "I bumped into you, and you fell."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "手、怪我しましたよね。",
+            "text_en": "I hurt my hand."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.worried",
+            "text_ja": "ごめんなさいほんとに...！",
+            "text_en": "I'm really sorry about that...!"
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "でも、あのときに会ってよかったと思ってます。",
+            "text_en": "But I'm glad we met that day."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.shy",
+            "text_ja": "...私も。",
+            "text_en": "...Me too."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "text_ja": "しばらく、並んでお店を眺めた。",
+            "text_en": "For a while, we stood side by side, looking at the shops."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "ねえ、{{player.given_name}}くん。これからも、ずっと一緒にいてくれる？",
+            "text_en": "Hey, {{player.given_name}}. Will you stay by my side? Always?"
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "もちろんです。",
+            "text_en": "Of course."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "...よかった。",
+            "text_en": "...I'm so glad."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "image",
+            "cg": "shiori_true_end"
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "じゃあ、これからもよろしくね。",
+            "text_en": "Then, I'm counting on you from here on out."
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "こちらこそ、よろしくお願いします。",
+            "text_en": "Likewise, please take care of me."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（この人と、ずっとそばにいたい。それだけが、今の俺の答えだ。）",
+            "text_en": "(...I want to stay by this person's side. That's my answer, right now.)"
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "end"
+        }
+    ]
+}

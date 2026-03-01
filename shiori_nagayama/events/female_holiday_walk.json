@@ -1,0 +1,199 @@
+{
+    "event_id": "shiori_female_holiday_walk",
+    "title_ja": "休日の散歩",
+    "title_en": "Holiday Walk",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "詩織さんからメッセージが届いた。",
+            "text_en": "A message arrived from Shiori-san."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "今日、どこか行かない？",
+            "text_en": "Want to go somewhere today?"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "いいですよ。どこに行きましょうか？",
+            "text_en": "Sure. Where should we go?"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "じゃあ河川敷にしようか。あそこ好きなんだよね。",
+            "text_en": "How about the riverside? I really like it there."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（よし、河川敷に行こう。）",
+            "text_en": "(...Alright, let's go to the riverside.)"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "image",
+            "background": "riverside"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "text_ja": "川沿いの道を並んで歩いていると、詩織さんがふと言った。",
+            "text_en": "As we walked side by side along the river, Shiori-san said something out of the blue."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "妹から連絡来てたんだよね、さっき。",
+            "text_en": "I just got a message from my sister."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "妹さんって、大学生でしたよね？",
+            "text_en": "Your sister's in college, right?"
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "そう。来月試験があるって言ってて。",
+            "text_en": "Yeah. She says she has exams next month."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "大変ですね。",
+            "text_en": "That must be rough."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "でも、なんか楽しそうに話してくれるんだよね。元気だなあって思って。",
+            "text_en": "But she sounds happy when she talks about it. Makes me think she's doing well."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "仲いいですよね、詩織さんと妹さん。",
+            "text_en": "You and your sister are close, aren't you, Shiori-san."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "うん、わりと。実家離れてから余計に仲良くなった気がして。",
+            "text_en": "Yeah, pretty close. I actually feel like we've grown closer since I moved away."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "離れるとかえって仲良くなるってありますよね。",
+            "text_en": "Distance can do that sometimes, can't it."
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "ある、ある。...なんか、{{player.given_name}}ちゃんと話してると思わぬところで共感できて嬉しい。",
+            "text_en": "Exactly. ...You know, talking with you, {{player.given_name}}-chan, I'm always surprised by how much we agree on."
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（私も、そう思う。）",
+            "text_en": "(...I feel the same way.)"
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "こういうの、好きだな。特に何するでもなく、ただいるだけって感じが。",
+            "text_en": "I like this. Just... being here without needing to do anything in particular."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "私もです。",
+            "text_en": "Me too."
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "{{player.given_name}}ちゃんと一緒だと、なんか落ち着く。",
+            "text_en": "I feel at ease when I'm with you, {{player.given_name}}-chan."
+        },
+        {
+            "scene_id": "scene_021",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "それは嬉しいな。",
+            "text_en": "That's really nice to hear."
+        },
+        {
+            "scene_id": "scene_022",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（こういう時間が積み重なっていくんだな。）",
+            "text_en": "(...These moments keep adding up.)"
+        },
+        {
+            "scene_id": "scene_023",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "今日はありがとう。高校生を遅くまで連れまわしちゃダメだよね。",
+            "text_en": "Thanks for today. I shouldn't be keeping a high schooler out so late."
+        },
+        {
+            "scene_id": "scene_024",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。そろそろ帰りますね。",
+            "text_en": "Yeah. I should probably head back."
+        },
+        {
+            "scene_id": "scene_025",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "じゃあね。また今度。",
+            "text_en": "See you. Until next time."
+        },
+        {
+            "scene_id": "scene_026",
+            "type": "end",
+            "flags_set": ["shiori_female_holiday_walk_done"],
+            "stat_changes": {
+                "affection": 4,
+                "intimacy": 4
+            }
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "event_id": "shiori_male_random_convenience",
+    "title_ja": "仕事帰りに鉢合わせ",
+    "title_en": "Bumping Into Her After Work",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "コンビニに立ち寄ると、見知った顔があった。",
+            "text_en": "I stopped by the convenience store and spotted a familiar face."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん？",
+            "text_en": "Nagayama-san?"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "あ、{{player.family_name}}くん。こんな時間に。",
+            "text_en": "Oh, {{player.family_name}}. Out at this hour?"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "仕事帰りです。永山さんも？",
+            "text_en": "Just came from somewhere. You too?"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "そう。今日は遅番で。",
+            "text_en": "Yeah. I had a late shift today."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "お疲れ様です。",
+            "text_en": "You must be tired."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "ありがとう。...なんか、会うといつもコンビニとかショッピングモールだね。",
+            "text_en": "Thanks. ...You know, every time we meet it's at the convenience store or the mall."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "縁があるんですかね。",
+            "text_en": "Maybe we're just drawn to the same places."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "かもしれないね。じゃあ、また。",
+            "text_en": "Could be. Well, see you around."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なんか、ちょっと嬉しかった。）",
+            "text_en": "(That made me weirdly happy.)"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "end",
+            "stat_changes": {
+                "affection": 2,
+                "intimacy": 3
+            }
+        }
+    ]
+}

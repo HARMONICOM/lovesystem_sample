@@ -1,0 +1,371 @@
+{
+    "event_id": "shiori_male_confession",
+    "title_ja": "告白・交際開始",
+    "title_en": "Confession",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（あ、永山さんからメッセージだ。）",
+            "text_en": "(Oh, a message from Nagayama-san.)"
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "今日時間ある？ちょっと話したいことがあって。",
+            "text_en": "Are you free today? There's something I want to talk to you about."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "大丈夫ですよ。",
+            "text_en": "Sure, that's fine."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "この間の公園で待ち合わせしよ。",
+            "text_en": "Let's meet at that park from before."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（よし、と。公園に行こう。）",
+            "text_en": "(Alright. Off to the park.)"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "location_change",
+            "location": "park"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "text_ja": "公園に行くと、永山さんはいつもより少し神妙な顔をしていた。",
+            "text_en": "When I arrived at the park, Nagayama-san had a slightly more serious expression than usual."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "...あのさ。",
+            "text_en": "...Hey."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。",
+            "text_en": "Yes?"
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.serious",
+            "text_ja": "最近、{{player.family_name}}くんのことよく考えるんだよね。",
+            "text_en": "Lately, I keep thinking about you, {{player.family_name}}."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...え。）",
+            "text_en": "(...What.)"
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.shy",
+            "text_ja": "一緒にいると楽しいし、話しやすいし。いてくれるとほっとするし。",
+            "text_en": "Being with you is fun, you're easy to talk to. I feel at ease when you're around."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん...",
+            "text_en": "Nagayama-san..."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.serious",
+            "text_ja": "これって、たぶん普通の友達じゃないと思うんだよね。私。",
+            "text_en": "I don't think this is just a normal friendship. At least, not for me."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "image",
+            "cg": "shiori_park"
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.shy",
+            "text_ja": "だから、聞きたいんだけど。{{player.family_name}}くんって、私のことどう思ってる？",
+            "text_en": "So I wanted to ask... how do you feel about me, {{player.family_name}}?"
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...正直に言わないといけない。）",
+            "text_en": "(...I have to be honest.)"
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "choice",
+            "text_ja": "どう答える？",
+            "text_en": "What will you say?",
+            "choices": [
+                {
+                    "choice_id": "accept",
+                    "text_ja": "俺も、あなたのことが好きです、と答える",
+                    "text_en": "Tell her you like her too",
+                    "stat_changes": {
+                        "affection": 5,
+                        "intimacy": 5
+                    },
+                    "next_scene": "scene_q1a1_001"
+                },
+                {
+                    "choice_id": "evade",
+                    "text_ja": "突然どうしたんですか、とはぐらかす",
+                    "text_en": "Brush it off — 'What's this suddenly?'",
+                    "stat_changes": {
+                        "affection": -40,
+                        "intimacy": -40
+                    },
+                    "next_scene": "scene_q1a2_001"
+                }
+            ]
+        },
+        {
+            "scene_id": "scene_q1a1_001",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "俺も、永山さんのことが好きです。",
+            "text_en": "I like you too, Nagayama-san."
+        },
+        {
+            "scene_id": "scene_q1a1_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.surprised",
+            "text_ja": "え...",
+            "text_en": "Oh..."
+        },
+        {
+            "scene_id": "scene_q1a1_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "ずっと言おうか迷ってました。一緒にいると楽しくて、そばにいたいって思ってたから。",
+            "text_en": "I kept going back and forth on whether to say it. But being with you is fun, and I've been wanting to stay close to you."
+        },
+        {
+            "scene_id": "scene_q1a1_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.shy",
+            "text_ja": "...こんなおばちゃんでいいの？",
+            "text_en": "...Are you sure you're okay with someone as old as me?"
+        },
+        {
+            "scene_id": "scene_q1a1_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "おばちゃんだなんてそんな。全然若いじゃないですか。",
+            "text_en": "Old? Not at all. You're still totally young."
+        },
+        {
+            "scene_id": "scene_q1a1_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "...よかった。",
+            "text_en": "...Good."
+        },
+        {
+            "scene_id": "scene_q1a1_007",
+            "type": "dialogue",
+            "text_ja": "彼女は小さく笑った。照れているのが伝わってくる。",
+            "text_en": "She smiled softly. I could tell she was flustered."
+        },
+        {
+            "scene_id": "scene_q1a1_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "じゃあ、あの...付き合ってくれる？",
+            "text_en": "Then, um... will you go out with me?"
+        },
+        {
+            "scene_id": "scene_q1a1_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "こちらこそ、よろしくお願いします。",
+            "text_en": "It would be my pleasure."
+        },
+        {
+            "scene_id": "scene_q1a1_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "...うん。よろしく。",
+            "text_en": "...Yeah. Likewise."
+        },
+        {
+            "scene_id": "scene_q1a1_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なんかドキドキする...！）",
+            "text_en": "(My heart is pounding...!)"
+        },
+        {
+            "scene_id": "scene_q1a1_012",
+            "type": "dialogue",
+            "text_ja": "夕暮れの公園に、しばらく二人で並んで座っていた。",
+            "text_en": "We sat side by side in the evening park for a while."
+        },
+        {
+            "scene_id": "scene_q1a1_013",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "なんか...照れるなぁ。",
+            "text_en": "This is... embarrassing."
+        },
+        {
+            "scene_id": "scene_q1a1_014",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "俺もです。",
+            "text_en": "Same here."
+        },
+        {
+            "scene_id": "scene_q1a1_015",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "でも、嬉しい。",
+            "text_en": "But I'm happy."
+        },
+        {
+            "scene_id": "scene_q1a1_016",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "ねえ、名前で呼んでいい？{{player.given_name}}くんって。",
+            "text_en": "Hey, can I call you by your name? {{player.given_name}}?"
+        },
+        {
+            "scene_id": "scene_q1a1_017",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "...じゃあ俺も、詩織さんって呼んでいいですか。",
+            "text_en": "...Then can I call you Shiori-san?"
+        },
+        {
+            "scene_id": "scene_q1a1_018",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.shy",
+            "text_ja": "...うん。ぜひ。",
+            "text_en": "...Yes. Please do."
+        },
+        {
+            "scene_id": "scene_q1a1_019",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（詩織さん、か。...なんかいいな。）",
+            "text_en": "(...Shiori-san. ...I like that.)"
+        },
+        {
+            "scene_id": "scene_q1a1_end",
+            "type": "end",
+            "flags_set": ["shiori_male_confession_done", "shiori_male_confession_accepted"],
+            "relationship": "dating"
+        },
+        {
+            "scene_id": "scene_q1a2_001",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_q1a2_002",
+            "type": "image",
+            "background": "park"
+        },
+        {
+            "scene_id": "scene_q1a2_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "突然どうしたんですか？そんな。",
+            "text_en": "Where is this coming from all of a sudden?"
+        },
+        {
+            "scene_id": "scene_q1a2_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.sad",
+            "text_ja": "...そうだよね、急にこんなこと言って。ごめん。忘れて。",
+            "text_en": "...You're right, this came out of nowhere. Sorry. Forget I said anything."
+        },
+        {
+            "scene_id": "scene_q1a2_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "えっ。",
+            "text_en": "Wait—"
+        },
+        {
+            "scene_id": "scene_q1a2_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "呼び出しちゃってごめんね。じゃあ。",
+            "text_en": "Sorry for calling you out here. Goodbye."
+        },
+        {
+            "scene_id": "scene_q1a2_007",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_q1a2_008",
+            "type": "dialogue",
+            "text_ja": "永山さんは行ってしまった。",
+            "text_en": "Nagayama-san left."
+        },
+        {
+            "scene_id": "scene_q1a2_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（これで良かったんだろうか...）",
+            "text_en": "(...Was that the right thing to do?)"
+        },
+        {
+            "scene_id": "scene_q1a2_end",
+            "type": "end",
+            "flags_set": ["shiori_male_confession_done", "shiori_male_confession_rejected"]
+        }
+    ]
+}

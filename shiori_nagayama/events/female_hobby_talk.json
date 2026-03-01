@@ -1,0 +1,292 @@
+{
+    "event_id": "shiori_female_hobby_talk",
+    "title_ja": "趣味の話",
+    "title_en": "Hobby Talk",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "スマホで調べ物をしていると、メッセージが入った。",
+            "text_en": "I was looking something up on my phone when a message came in."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "今日ショッピングモール行くんだけど、よかったら一緒にどう？",
+            "text_en": "I'm heading to the shopping mall today. Want to come along?"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（服が好きって言ってたもんな。）",
+            "text_en": "(...She did say she loves clothes.)"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "ぜひ。お願いします。",
+            "text_en": "I'd love to. Count me in."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（よし、ショッピングモールに行こう。）",
+            "text_en": "(...Alright, let's head to the shopping mall.)"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "image",
+            "background": "shopping_mall"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "こんにちは。何見よっか。",
+            "text_en": "Hey! What do you want to look at?"
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "こんにちは。よろしくお願いします。",
+            "text_en": "Hi. Nice to see you."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "そんな堅苦しくならないで。いこ。",
+            "text_en": "Don't be so formal. Come on."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "text_ja": "二人でモールの中を歩いた。",
+            "text_en": "We walked through the mall together."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "あ、ここのお店好きなんだよね。ちょっと見ていい？",
+            "text_en": "Oh, I love this store. Mind if we take a look?"
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "私も好きです、そこ。",
+            "text_en": "I like this place too."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.surprised",
+            "text_ja": "え、ほんとに！じゃあ一緒に入ろう。",
+            "text_en": "Really! Then let's go in together."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "text_ja": "彼女は迷いなく店内に入り、次々と服を手に取り始めた。目が輝いている。",
+            "text_en": "She walked in without hesitation and started picking up clothes one after another. Her eyes were sparkling."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "{{player.family_name}}さんってどんな服が好き？",
+            "text_en": "What kind of clothes do you like, {{player.family_name}}-san?"
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "どっちかというとシンプルなのがいいかな。",
+            "text_en": "I prefer simple styles, I think."
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "わかる、着回しやすいの揃えるの大事だよね。",
+            "text_en": "I get that. It's important to have pieces you can mix and match easily."
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（話が合う。）",
+            "text_en": "(...We see eye to eye on this.)"
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "text_ja": "いろいろなお店を見て回っていると、手芸品店の前を通りかかった。",
+            "text_en": "As we browsed different shops, we passed by a craft supply store."
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "生地とか毛糸がいっぱい。",
+            "text_en": "There's so much fabric and yarn in here."
+        },
+        {
+            "scene_id": "scene_021",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "あ、見てた！私、裁縫とか編み物やるんだよね。",
+            "text_en": "Oh, I was just looking at that! I do sewing and knitting."
+        },
+        {
+            "scene_id": "scene_022",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "えっ、すごい。私もちょっとやってみたくて。",
+            "text_en": "Wow, that's amazing. I've been wanting to try that too."
+        },
+        {
+            "scene_id": "scene_023",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.surprised",
+            "text_ja": "ほんとに！何か作りたいものある？",
+            "text_en": "Really! Is there something you'd like to make?"
+        },
+        {
+            "scene_id": "scene_024",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "セーターとか編んでみたいな...でも難しそうで。",
+            "text_en": "I'd like to try knitting a sweater... but it looks so hard."
+        },
+        {
+            "scene_id": "scene_025",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "最初はマフラーがいいよ。シンプルだし。教えようか？",
+            "text_en": "Start with a scarf. It's simple. Want me to teach you?"
+        },
+        {
+            "scene_id": "scene_026",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "教えてもらえるんですか？",
+            "text_en": "You'd really teach me?"
+        },
+        {
+            "scene_id": "scene_027",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "いいよ！今度一緒にやろう。",
+            "text_en": "Of course! Let's do it sometime."
+        },
+        {
+            "scene_id": "scene_028",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なんか、距離が縮まった気がする。）",
+            "text_en": "(...It feels like we've gotten a little closer.)"
+        },
+        {
+            "scene_id": "scene_029",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "時間かかるんだけど、完成したときの達成感がよくて。",
+            "text_en": "It takes time, but the sense of accomplishment when it's done is really something."
+        },
+        {
+            "scene_id": "scene_030",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "楽しそうですね。絶対教えてください。",
+            "text_en": "That sounds wonderful. Please definitely teach me."
+        },
+        {
+            "scene_id": "scene_031",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "任せて。",
+            "text_en": "Leave it to me."
+        },
+        {
+            "scene_id": "scene_032",
+            "type": "dialogue",
+            "text_ja": "二人で話しながら歩くうちに、あっという間に時間が過ぎた。",
+            "text_en": "We walked and talked, and before I knew it, time had flown by."
+        },
+        {
+            "scene_id": "scene_033",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "今日付き合ってくれてありがとう。",
+            "text_en": "Thanks for coming along today."
+        },
+        {
+            "scene_id": "scene_034",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "楽しかったです。",
+            "text_en": "It was a lot of fun."
+        },
+        {
+            "scene_id": "scene_035",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "また誘ってもいい？",
+            "text_en": "Can I invite you again sometime?"
+        },
+        {
+            "scene_id": "scene_036",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "もちろんです。",
+            "text_en": "Of course."
+        },
+        {
+            "scene_id": "scene_037",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "やった。じゃあまた連絡するね。",
+            "text_en": "Great. I'll message you then."
+        },
+        {
+            "scene_id": "scene_038",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なんか...また楽しみが増えた気がする。）",
+            "text_en": "(...I feel like I have something new to look forward to.)"
+        },
+        {
+            "scene_id": "scene_039",
+            "type": "end",
+            "flags_set": ["shiori_female_hobby_talk_done"],
+            "stat_changes": {
+                "affection": 4,
+                "intimacy": 4
+            }
+        }
+    ]
+}

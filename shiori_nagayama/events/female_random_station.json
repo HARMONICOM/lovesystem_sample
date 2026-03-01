@@ -1,0 +1,90 @@
+{
+    "event_id": "shiori_female_random_station",
+    "title_ja": "駅で鉢合わせ",
+    "title_en": "Bumping Into Her at the Station",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "駅前を歩いていると、永山さんとばったり会った。",
+            "text_en": "I was walking by the station when I ran into Nagayama-san."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "あれ、{{player.family_name}}さん。",
+            "text_en": "Oh, {{player.family_name}}-san."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん。こんなところで。",
+            "text_en": "Nagayama-san. Fancy meeting you here."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "ほんと。何してたの？",
+            "text_en": "Right? What are you up to?"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "ちょっと買い物に。",
+            "text_en": "Just a bit of shopping."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "そうなんだ。",
+            "text_en": "I see."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "なんか、こういうの好きだな。偶然同じところにいる感じ。",
+            "text_en": "You know, I kind of like this. Accidentally being in the same place."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "そうですね。",
+            "text_en": "Yeah, me too."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "あ、そろそろ電車が来る。じゃ、またね。",
+            "text_en": "Oh, my train's coming soon. See you later."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（短い時間だったけど、悪くなかった。）",
+            "text_en": "(...It was brief, but not bad at all.)"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "end",
+            "stat_changes": {
+                "affection": 2,
+                "intimacy": 2
+            }
+        }
+    ]
+}

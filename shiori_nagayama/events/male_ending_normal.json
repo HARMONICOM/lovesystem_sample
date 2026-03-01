@@ -1,0 +1,78 @@
+{
+    "event_id": "shiori_male_ending_normal",
+    "title_ja": "友達みたいな関係",
+    "title_en": "Like Friends",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "コンビニでばったり会った。",
+            "text_en": "I ran into her at the convenience store."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "あ、{{player.family_name}}くん。",
+            "text_en": "Oh, {{player.family_name}}."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん。",
+            "text_en": "Nagayama-san."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "最近どう？",
+            "text_en": "How have you been?"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "まあ普通です。永山さんは？",
+            "text_en": "Pretty normal. You?"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "私も...そういえば、また何かあったら連絡してね。",
+            "text_en": "Same here... Oh, feel free to reach out if anything comes up."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。永山さんも。",
+            "text_en": "Will do. You too."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "うん。じゃあ、また。",
+            "text_en": "Sure. See you around."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（友達、って感じになったな。それはそれで、悪くない。）",
+            "text_en": "(...It feels like we've settled into a friendship. That's not so bad.)"
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "end"
+        }
+    ]
+}

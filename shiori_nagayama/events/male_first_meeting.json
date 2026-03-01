@@ -1,0 +1,327 @@
+{
+    "event_id": "shiori_male_first_meeting",
+    "title_ja": "出会い",
+    "title_en": "First Meeting",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "ショッピングモールに立ち寄ってみた。",
+            "text_en": "I stopped by the shopping mall."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "text_ja": "特に目当てのものはないけど、ただぶらぶらと店内を歩いてみたり。",
+            "text_en": "Nothing in particular I wanted, just wandering around."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "text_ja": "通路を歩いていると、脇の店から誰かが飛び出してきた。",
+            "text_en": "As I walked down the aisle, someone burst out of a nearby shop."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.surprised",
+            "text_ja": "あっ...！",
+            "text_en": "Oh...!"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "text_ja": "ぶつかる、と思った瞬間には遅かった。衝撃とともに俺は体勢を崩し、その場に倒れ込んでしまった。",
+            "text_en": "By the time I registered the collision, it was too late. The impact threw me off balance, and I crumpled to the floor."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "image",
+            "cg": "shiori_accident"
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.worried",
+            "text_ja": "え、ちょっと、大丈夫ですか！？",
+            "text_en": "Hey, are you okay!?"
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "text_ja": "手に鋭い痛みが走る。咄嗟に手をついてしまったようだ。",
+            "text_en": "A sharp pain shot through my hand. Instinctively I must have reached out to break my fall."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "あ...うん、大丈夫...",
+            "text_en": "Ah... yeah, I'm fine..."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.serious",
+            "text_ja": "待って、手見せて。",
+            "text_en": "Wait, let me see your hand."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "text_ja": "彼女は俺の言葉を遮るように膝を折り、俺の手首をそっと取った。",
+            "text_en": "She cut off my words, kneeling down and gently taking hold of my wrist."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.serious",
+            "text_ja": "擦り傷だ。少し血が出てる。",
+            "text_en": "It's a scrape. There's a little blood."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "text_ja": "そう言いながら、彼女はバッグを開けてなにかを探し始めた。",
+            "text_en": "As she said this, she opened her bag and started rummaging around inside."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.normal",
+            "text_ja": "ちょっと待っててください。ティッシュ、消毒液...あった。",
+            "text_en": "Just a moment. Tissues, disinfectant... got them."
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "そんな、気にしなくていいですよ。",
+            "text_en": "You really don't have to go to the trouble."
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.serious",
+            "text_ja": "気にします。ぶつかったのは私ですし。",
+            "text_en": "I do mind. I was the one who bumped into you."
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "text_ja": "有無を言わさない口調だった。",
+            "text_en": "Her tone left no room for argument."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.normal",
+            "text_ja": "消毒しますね。ちょっとしみるかも。",
+            "text_en": "I'll disinfect it now. It might sting a bit."
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "...っ！",
+            "text_en": "...gh!"
+        },
+        {
+            "scene_id": "scene_021",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.worried",
+            "text_ja": "ごめんなさい、しみたよね。",
+            "text_en": "Sorry, it stings, doesn't it."
+        },
+        {
+            "scene_id": "scene_022",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "平気です。",
+            "text_en": "I'm fine."
+        },
+        {
+            "scene_id": "scene_023",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.smile",
+            "text_ja": "他に痛いところとか無いですか？",
+            "text_en": "Does it hurt anywhere else?"
+        },
+        {
+            "scene_id": "scene_024",
+            "type": "dialogue",
+            "text_ja": "彼女はそう言って小さく笑い、バッグからさらに絆創膏を取り出した。",
+            "text_en": "She said this with a small smile and pulled a bandage out of her bag."
+        },
+        {
+            "scene_id": "scene_025",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なんかやたらとテキパキしてるな...）",
+            "text_en": "(She's incredibly efficient at this...)"
+        },
+        {
+            "scene_id": "scene_026",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "name_display": "？？？",
+            "portrait": "casual.normal",
+            "text_ja": "はい、これで大丈夫です。ほんとにすみません。全然前見てなくて...",
+            "text_en": "There, that should do it. I'm really sorry. I wasn't looking where I was going at all..."
+        },
+        {
+            "scene_id": "scene_027",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "俺も気をつけてなかったので...",
+            "text_en": "I wasn't paying attention either..."
+        },
+        {
+            "scene_id": "scene_028",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_029",
+            "type": "image",
+            "background": "shopping_mall"
+        },
+        {
+            "scene_id": "scene_030",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "あなた高校生ぐらい？",
+            "text_en": "You're in high school, right?"
+        },
+        {
+            "scene_id": "scene_031",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "あ、はい。",
+            "text_en": "Ah, yes."
+        },
+        {
+            "scene_id": "scene_032",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "ごめんねホント。あの、これ...何かあったら連絡して。",
+            "text_en": "I'm really sorry. Um, this... if anything comes up, please contact me."
+        },
+        {
+            "scene_id": "scene_033",
+            "type": "dialogue",
+            "text_ja": "差し出されたのは、一枚の名刺だった。",
+            "text_en": "She held out a business card."
+        },
+        {
+            "scene_id": "scene_034",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "あ...",
+            "text_en": "Oh..."
+        },
+        {
+            "scene_id": "scene_035",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "病院の看護師だから、何かあったら病院に来て。",
+            "text_en": "I'm a nurse at a hospital, so if anything happens, come in."
+        },
+        {
+            "scene_id": "scene_036",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "看護師さんなんですか。",
+            "text_en": "You're a nurse?"
+        },
+        {
+            "scene_id": "scene_037",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "そう。だから、絆創膏とかはいつも持ち歩いてて。",
+            "text_en": "That's right. That's why I always carry bandages and things."
+        },
+        {
+            "scene_id": "scene_038",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なるほど、だからあんなにテキパキしてたのか。）",
+            "text_en": "(Ah, that explains why she was so efficient.)"
+        },
+        {
+            "scene_id": "scene_039",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "ありがとうございます。俺、{{player.family_name}}っていいます。",
+            "text_en": "Thank you. I'm {{player.family_name}}."
+        },
+        {
+            "scene_id": "scene_040",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "{{player.family_name}}くん、ね。ほんとにごめんなさい。",
+            "text_en": "{{player.family_name}}, huh. I'm really sorry."
+        },
+        {
+            "scene_id": "scene_041",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "手、無理しないでね。",
+            "text_en": "Don't push yourself with that hand."
+        },
+        {
+            "scene_id": "scene_042",
+            "type": "dialogue",
+            "text_ja": "彼女は深く頭を下げると行ってしまった。",
+            "text_en": "She bowed deeply and left."
+        },
+        {
+            "scene_id": "scene_043",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...なんか、すごい人だったな。）",
+            "text_en": "(...That was quite a person.)"
+        },
+        {
+            "scene_id": "scene_044",
+            "type": "dialogue",
+            "text_ja": "...気づくと周りには人だかりができていた...なんだか恥ずかしいな。",
+            "text_en": "...I looked up to find a small crowd had gathered... This is embarrassing."
+        },
+        {
+            "scene_id": "scene_045",
+            "type": "end",
+            "flags_set": ["shiori_male_met"]
+        }
+    ]
+}

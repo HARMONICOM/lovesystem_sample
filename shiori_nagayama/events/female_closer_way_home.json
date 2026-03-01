@@ -1,0 +1,197 @@
+{
+    "event_id": "shiori_female_closer_way_home",
+    "title_ja": "帰り道を一緒に",
+    "title_en": "Walking Home Together",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "授業が終わったころ、スマホにメッセージが届いた。",
+            "text_en": "Just as class ended, a message arrived on my phone."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "今日学校終わるの何時？",
+            "text_en": "What time do you finish school today?"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "もうすぐ終わります。",
+            "text_en": "Just about now actually."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "じゃあ合流できる？駅で待ってる。",
+            "text_en": "Can we meet up then? I'll wait for you at the station."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（よし、駅に行こう。）",
+            "text_en": "(...Alright, let's head to the station.)"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "location_change",
+            "location": "station"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "text_ja": "駅に着くと、詩織さんが待っていた。",
+            "text_en": "When I got to the station, Shiori-san was already there waiting."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "お疲れさま。",
+            "text_en": "Good work today."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "お疲れさまです。",
+            "text_en": "You too."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "カフェに入らない？",
+            "text_en": "Want to grab a coffee?"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。行きましょう。",
+            "text_en": "Sure. Let's go."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "location_change",
+            "location": "cafe"
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "image",
+            "cg": "shiori_cafe"
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "学校どうだった？",
+            "text_en": "How was school?"
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "いつも通り楽しかったです。詩織さんは？",
+            "text_en": "Same as always, fun. What about you, Shiori-san?"
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "私も普通かな。ちょっと患者さんの調子が気になる人がいて。",
+            "text_en": "Pretty normal for me. There's one patient whose condition I've been a bit worried about."
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "大変ですね。",
+            "text_en": "That's hard."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "こうして話してると落ち着くね。",
+            "text_en": "Talking with you like this is calming."
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "image",
+            "background": "cafe"
+        },
+        {
+            "scene_id": "scene_021",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "そろそろ帰らないとね。",
+            "text_en": "We should probably get going soon."
+        },
+        {
+            "scene_id": "scene_022",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。でもまた明日も会えます。",
+            "text_en": "Yeah. But we can always meet again tomorrow."
+        },
+        {
+            "scene_id": "scene_023",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "そうだね。明日も頑張ろう。",
+            "text_en": "True. Let's both do our best tomorrow."
+        },
+        {
+            "scene_id": "scene_024",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "{{player.given_name}}ちゃんと会えると元気が出るよ。",
+            "text_en": "Seeing you always gives me energy, {{player.given_name}}-chan."
+        },
+        {
+            "scene_id": "scene_025",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "私もです。",
+            "text_en": "Same here."
+        },
+        {
+            "scene_id": "scene_026",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "よかった。それじゃあね。",
+            "text_en": "I'm glad. See you then."
+        },
+        {
+            "scene_id": "scene_027",
+            "type": "end",
+            "stat_changes": {
+                "affection": 3,
+                "intimacy": 3
+            }
+        }
+    ]
+}

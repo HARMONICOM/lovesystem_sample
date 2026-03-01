@@ -1,0 +1,421 @@
+{
+    "event_id": "shiori_male_injury_checkup",
+    "title_ja": "怪我の経過確認",
+    "title_en": "Injury Checkup",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "なんとなくショッピングモールに来てみた。",
+            "text_en": "I found myself wandering into the shopping mall for no particular reason."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（そういえばあの日以来、手はすっかり良くなったな。）",
+            "text_en": "(Come to think of it, my hand has completely healed since that day.)"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "text_ja": "永山さんにぶつかって、絆創膏を貼ってくれた場所を見ていると、聞き覚えのある声がした。",
+            "text_en": "I was looking at the spot where Nagayama-san had put the bandage when I heard a familiar voice."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "あ、{{player.family_name}}くん！",
+            "text_en": "Oh, {{player.family_name}}!"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "text_ja": "振り向くと、永山さんが小走りで近づいてきた。",
+            "text_en": "I turned around to find Nagayama-san jogging toward me."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん...！",
+            "text_en": "Nagayama-san...!"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "やっぱり！こんなところで会うなんて...って、そうじゃなくて。手、大丈夫だった？",
+            "text_en": "I knew it! Running into you here of all places... wait, that's not the point. How's your hand?"
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（しっかり覚えてくれてたんだな。）",
+            "text_en": "(She actually remembered.)"
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい、おかげさまでちゃんと治りました。",
+            "text_en": "Yes, thanks to you it healed up fine."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.relieved",
+            "text_ja": "よかった...化膿したりしてたらどうしようってずっと気になってたんだよね。",
+            "text_en": "Thank goodness... I'd been worried the whole time about what I'd do if it got infected."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "ちゃんと消毒してもらいましたし、全然平気でしたよ。",
+            "text_en": "You disinfected it properly, so it was completely fine."
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "それは安心した。見せてもらっていい？",
+            "text_en": "That's a relief. Mind if I take a look?"
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "え、あ、はい。",
+            "text_en": "Eh, ah, sure."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "text_ja": "手を差し出すと、彼女はためらいなく俺の手を取り、傷跡をじっくりと確かめた。",
+            "text_en": "I held out my hand and she took it without hesitation, carefully examining the scar."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "うん、きれいに治ってるね。よかった。",
+            "text_en": "Yep, it's healed up nicely. Good."
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん、今日もお買い物ですか？",
+            "text_en": "Are you shopping today too, Nagayama-san?"
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "そう。服見たりするのが好きで。よくここに来るんだよね。{{player.family_name}}くんは？",
+            "text_en": "Yeah. I love looking at clothes. I come here all the time. What about you, {{player.family_name}}?"
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "俺もなんとなくぶらぶらしてただけで。",
+            "text_en": "I was just wandering around without much reason."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "そうなんだ。...あの、少し時間ある？",
+            "text_en": "I see. ...Um, do you have a bit of time?"
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "え？",
+            "text_en": "Hm?"
+        },
+        {
+            "scene_id": "scene_021",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "せめてお茶くらいおごらせて。お礼も兼ねて。",
+            "text_en": "Let me at least buy you a drink. Consider it a thank you."
+        },
+        {
+            "scene_id": "scene_022",
+            "type": "choice",
+            "text_ja": "どうする？",
+            "text_en": "What will you do?",
+            "choices": [
+                {
+                    "choice_id": "accept",
+                    "text_ja": "いいですよ、と答える",
+                    "text_en": "Sure, that sounds good",
+                    "stat_changes": {
+                        "affection": 3,
+                        "intimacy": 4
+                    },
+                    "next_scene": "scene_q1a1_001"
+                },
+                {
+                    "choice_id": "decline",
+                    "text_ja": "遠慮します、と断る",
+                    "text_en": "No, I couldn't",
+                    "stat_changes": {
+                        "affection": 3,
+                        "intimacy": 1
+                    },
+                    "next_scene": "scene_q1a2_001"
+                }
+            ]
+        },
+        {
+            "scene_id": "scene_q1a1_001",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "ありがとうございます、じゃあお言葉に甘えて。",
+            "text_en": "Thank you, I'll take you up on that."
+        },
+        {
+            "scene_id": "scene_q1a1_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "よかった！じゃあどこか入ろう。",
+            "text_en": "Great! Let's find somewhere to sit."
+        },
+        {
+            "scene_id": "scene_q1a1_003",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_q1a1_004",
+            "type": "image",
+            "cg": "shiori_cafe"
+        },
+        {
+            "scene_id": "scene_q1a1_005",
+            "type": "dialogue",
+            "text_ja": "二人で近くのカフェに入り、向かい合って座った。",
+            "text_en": "We went into a nearby cafe and sat across from each other."
+        },
+        {
+            "scene_id": "scene_q1a1_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "改めて、この間はほんとにごめんなさい。",
+            "text_en": "Once again, I'm really sorry about the other day."
+        },
+        {
+            "scene_id": "scene_q1a1_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "もう気にしてないですよ。",
+            "text_en": "I'm not bothered about it anymore."
+        },
+        {
+            "scene_id": "scene_q1a1_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "そうは言っても、ね...でも、ちゃんと治ってくれてよかった。",
+            "text_en": "Even so... but I'm glad it healed up properly."
+        },
+        {
+            "scene_id": "scene_q1a1_009",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん、看護師さんだから、怪我のことはやっぱり気になりますよね。",
+            "text_en": "Being a nurse, I suppose injuries really bother you."
+        },
+        {
+            "scene_id": "scene_q1a1_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "それもあるんだけど、自分がぶつかって怪我させたっていうのが一番で。",
+            "text_en": "Partly, but it's mostly that I was the one who caused the injury."
+        },
+        {
+            "scene_id": "scene_q1a1_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（看護師だから、というだけじゃなくて、人として放っておけないんだな。）",
+            "text_en": "(It's not just because she's a nurse — she just can't leave people hurting.)"
+        },
+        {
+            "scene_id": "scene_q1a1_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "そういえば、{{player.family_name}}くん高校生なんだよね。そこの近くの高校？",
+            "text_en": "By the way, you're in high school, right? One of the nearby schools?"
+        },
+        {
+            "scene_id": "scene_q1a1_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。そうです。",
+            "text_en": "Yes, that's right."
+        },
+        {
+            "scene_id": "scene_q1a1_014",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "そうなんだ。よく生徒見かけるよ。若いっていいよねー。",
+            "text_en": "I see. I see students from there all the time. Being young is great, isn't it."
+        },
+        {
+            "scene_id": "scene_q1a1_015",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん。",
+            "text_en": "Nagayama-san."
+        },
+        {
+            "scene_id": "scene_q1a1_016",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "私もう23なんだよね。はー年は取りたくない。",
+            "text_en": "I'm already 23, you know. Ugh, I don't want to get older."
+        },
+        {
+            "scene_id": "scene_q1a1_017",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "十分若いと思いますよ。",
+            "text_en": "You're still plenty young."
+        },
+        {
+            "scene_id": "scene_q1a1_018",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "あはは、ありがとうねー。",
+            "text_en": "Haha, thanks!"
+        },
+        {
+            "scene_id": "scene_q1a1_019",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_q1a1_020",
+            "type": "image",
+            "background": "shopping_mall"
+        },
+        {
+            "scene_id": "scene_q1a1_021",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "じゃあ、今日はありがとう。",
+            "text_en": "Well, thank you for today."
+        },
+        {
+            "scene_id": "scene_q1a1_022",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "こちらこそ、ご馳走様でした。",
+            "text_en": "Thank you for the treat."
+        },
+        {
+            "scene_id": "scene_q1a1_023",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "また会ったら声かけるね。",
+            "text_en": "I'll say hi if I see you again."
+        },
+        {
+            "scene_id": "scene_q1a1_024",
+            "type": "dialogue",
+            "text_ja": "彼女はそう言って、手を振って去っていった。",
+            "text_en": "She said this with a wave and left."
+        },
+        {
+            "scene_id": "scene_q1a1_025",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...また会えるかな。）",
+            "text_en": "(...Will we meet again?)"
+        },
+        {
+            "scene_id": "scene_q1a1_end",
+            "type": "end",
+            "flags_set": ["shiori_male_injury_checkup_done"]
+        },
+        {
+            "scene_id": "scene_q1a2_001",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "いや、永山さんのせいじゃないですし...",
+            "text_en": "No, it wasn't your fault..."
+        },
+        {
+            "scene_id": "scene_q1a2_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.worried",
+            "text_ja": "そうはいっても...",
+            "text_en": "Even so..."
+        },
+        {
+            "scene_id": "scene_q1a2_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "本当に大丈夫ですよ。",
+            "text_en": "I really am fine."
+        },
+        {
+            "scene_id": "scene_q1a2_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "...わかった。でも、また機会があれば。",
+            "text_en": "...Alright. But if there's another chance sometime."
+        },
+        {
+            "scene_id": "scene_q1a2_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい、ぜひ。",
+            "text_en": "Yes, absolutely."
+        },
+        {
+            "scene_id": "scene_q1a2_006",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_q1a2_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（もう少し話してみてもよかったかな...）",
+            "text_en": "(...Maybe I should have talked a bit longer.)"
+        },
+        {
+            "scene_id": "scene_q1a2_end",
+            "type": "end",
+            "flags_set": ["shiori_male_injury_checkup_done"]
+        }
+    ]
+}

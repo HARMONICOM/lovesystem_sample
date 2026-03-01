@@ -1,0 +1,149 @@
+{
+    "event_id": "shiori_female_closer_shopping",
+    "title_ja": "休日のお買い物",
+    "title_en": "Weekend Shopping",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "ショッピングモールに来た。",
+            "text_en": "I came to the shopping mall."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "あっ、{{player.given_name}}ちゃん。",
+            "text_en": "Oh, {{player.given_name}}-chan!"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "あ、詩織さん。こんにちは。",
+            "text_en": "Oh, Shiori-san. Hey!"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "ここのお店、最近新しいの入ってて気になってたんだよね。",
+            "text_en": "This store just got new stuff in and I've been dying to check it out."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "楽しそう。",
+            "text_en": "That sounds fun."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "{{player.given_name}}ちゃんも何か欲しいものある？",
+            "text_en": "Is there anything you're looking for, {{player.given_name}}-chan?"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "特にないけど、付き合いますよ。",
+            "text_en": "Not really, but I'll keep you company."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "ありがとう。じゃあ行こう。",
+            "text_en": "Thanks! Let's go then."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "text_ja": "彼女は自分が気になっていた店を次々と案内してくれた。服を手に取っては私に見せ、感想を聞いてくる。",
+            "text_en": "She took me to all the stores she'd wanted to check out, holding things up for me to see and asking what I thought."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "これどう？",
+            "text_en": "What do you think of this?"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "似合うと思う！",
+            "text_en": "I think it suits you!"
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "じゃあこれにする。{{player.given_name}}ちゃんはこっちとかどう？",
+            "text_en": "Then I'll get this one. What about you, {{player.given_name}}-chan? What about this?"
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "え、私も？",
+            "text_en": "Me too?"
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "せっかくだし一緒に選ぼうよ。",
+            "text_en": "We're here anyway, let's pick something for you too."
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なんか、楽しいな。）",
+            "text_en": "(...This is really fun.)"
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "今日楽しかったね。",
+            "text_en": "Today was fun."
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "うん、またこようね。",
+            "text_en": "Yeah, let's come back."
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.happy",
+            "text_ja": "絶対また来よう。",
+            "text_en": "Definitely."
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "end",
+            "stat_changes": {
+                "affection": 3,
+                "intimacy": 3
+            }
+        }
+    ]
+}

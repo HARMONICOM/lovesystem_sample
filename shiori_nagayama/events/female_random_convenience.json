@@ -1,0 +1,89 @@
+{
+    "event_id": "shiori_female_random_convenience",
+    "title_ja": "仕事帰りに鉢合わせ",
+    "title_en": "Bumping Into Her After Work",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "text_ja": "コンビニに立ち寄ると、見知った顔があった。",
+            "text_en": "I stopped by the convenience store and spotted a familiar face."
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "永山さん？",
+            "text_en": "Nagayama-san?"
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "あ、{{player.family_name}}さん。こんな時間に。",
+            "text_en": "Oh, {{player.family_name}}-san. Out this late?"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "仕事帰りです。永山さんも？",
+            "text_en": "Just on my way back. You too?"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "そう。今日は遅番で。",
+            "text_en": "Yeah. I had the late shift today."
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "お疲れ様です。",
+            "text_en": "You must be tired."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "ありがとう。...なんか、会うといつもコンビニとかショッピングモールだね、私たち。",
+            "text_en": "Thanks. ...You know, we always seem to run into each other at places like this."
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "縁があるんですかね。",
+            "text_en": "Maybe we're just meant to cross paths."
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "かもしれないね。じゃあ、また。",
+            "text_en": "Maybe so. Well, see you again."
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（なんか、ちょっと嬉しかった。）",
+            "text_en": "(...That made me a little happy.)"
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "end",
+            "stat_changes": {
+                "affection": 2,
+                "intimacy": 3
+            }
+        }
+    ]
+}

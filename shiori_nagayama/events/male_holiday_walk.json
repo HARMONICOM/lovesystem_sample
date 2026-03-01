@@ -1,0 +1,241 @@
+{
+    "event_id": "shiori_male_holiday_walk",
+    "title_ja": "休日の散歩",
+    "title_en": "Holiday Walk",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（あっ、詩織さんからメッセージだ。）",
+            "text_en": "(Oh, a message from Shiori-san.)"
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.shy",
+            "text_ja": "今日時間ある？会いたいな。",
+            "text_en": "Are you free today? I want to see you."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（うん。オッケー、っと。）",
+            "text_en": "(Sure. Okay, replying.)"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "ありがとう。じゃあ、河川敷歩かない？",
+            "text_en": "Thanks. Want to walk along the riverside?"
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（よし、河川敷に行こう。）",
+            "text_en": "(Right, off to the riverside.)"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "location_change",
+            "location": "riverside"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "{{player.given_name}}くん。こんばんは！",
+            "text_en": "{{player.given_name}}. Good evening!"
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "こんばんは！",
+            "text_en": "Good evening!"
+        },
+        {
+            "scene_id": "scene_009",
+            "type": "dialogue",
+            "text_ja": "川沿いの道を並んで歩いていると、詩織さんがふと言った。",
+            "text_en": "As we walked side by side along the riverside path, Shiori-san said offhandedly:"
+        },
+        {
+            "scene_id": "scene_010",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "妹から連絡来てたんだよね、さっき。",
+            "text_en": "I got a message from my sister just now."
+        },
+        {
+            "scene_id": "scene_011",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "妹さんって、大学生でしたっけ？",
+            "text_en": "Your sister — she's in university, right?"
+        },
+        {
+            "scene_id": "scene_012",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "そう。来月試験があるって言ってて。",
+            "text_en": "Yeah. She said she has exams next month."
+        },
+        {
+            "scene_id": "scene_013",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "大変ですね。",
+            "text_en": "That's tough."
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "でも、なんか楽しそうに話してくれるんだよね。元気だなあって思って。",
+            "text_en": "But she seemed happy talking about it. I thought, 'she's got so much energy.'"
+        },
+        {
+            "scene_id": "scene_015",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "仲いいんですね。",
+            "text_en": "You two are close."
+        },
+        {
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "うん、わりと。実家離れてから余計に仲良くなった気がして。",
+            "text_en": "Yeah, pretty close. I feel like we got even closer after I moved away from home."
+        },
+        {
+            "scene_id": "scene_017",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "それはいいですね。",
+            "text_en": "That's nice."
+        },
+        {
+            "scene_id": "scene_018",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_019",
+            "type": "image",
+            "cg": "shiori_riverside"
+        },
+        {
+            "scene_id": "scene_020",
+            "type": "dialogue",
+            "text_ja": "しばらく歩いて、歩道沿いのベンチに座った。",
+            "text_en": "After a while of walking, we sat down on a bench along the path."
+        },
+        {
+            "scene_id": "scene_021",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "こういうの好きだな。特に何するでもなく、ただいるだけって感じが。",
+            "text_en": "I love this. Not doing anything in particular, just being here."
+        },
+        {
+            "scene_id": "scene_022",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "俺もです。",
+            "text_en": "Same."
+        },
+        {
+            "scene_id": "scene_023",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.normal",
+            "text_ja": "{{player.given_name}}くんと一緒だと、なんか落ち着く。",
+            "text_en": "I feel at ease when I'm with you, {{player.given_name}}."
+        },
+        {
+            "scene_id": "scene_024",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "それは嬉しいです。",
+            "text_en": "That makes me happy."
+        },
+        {
+            "scene_id": "scene_025",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "ほんとに。...ねえ、今日もこのままゆっくりしていい？",
+            "text_en": "Really. ...Hey, is it okay if we just take it easy like this today?"
+        },
+        {
+            "scene_id": "scene_026",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "もちろんです。",
+            "text_en": "Of course."
+        },
+        {
+            "scene_id": "scene_027",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（こういう時間が積み重なっていくんだな。）",
+            "text_en": "(...These are the moments that add up.)"
+        },
+        {
+            "scene_id": "scene_028",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_029",
+            "type": "image",
+            "background": "riverside"
+        },
+        {
+            "scene_id": "scene_030",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "今日はありがとう。高校生を遅くまで連れまわしちゃダメだよね。",
+            "text_en": "Thanks for today. I shouldn't keep you out so late, you're in high school."
+        },
+        {
+            "scene_id": "scene_031",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "はい。そろそろ帰りますね。",
+            "text_en": "Yeah. I'll head home soon."
+        },
+        {
+            "scene_id": "scene_032",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.smile",
+            "text_ja": "じゃあね。また今度。",
+            "text_en": "Okay. Until next time."
+        },
+        {
+            "scene_id": "scene_033",
+            "type": "end",
+            "flags_set": ["shiori_male_holiday_walk_done"],
+            "stat_changes": {
+                "affection": 4,
+                "intimacy": 4
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "event_id": "shiori_female_ending_bad",
+    "title_ja": "すれ違い",
+    "title_en": "Passing Ships",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "location_change",
+            "location": "shopping_mall"
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "text_ja": "ショッピングモールで、遠くに永山さんの姿が見えた。",
+            "text_en": "I spotted Nagayama-san across the shopping mall."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...永山さん。）",
+            "text_en": "(...Nagayama-san.)"
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "text_ja": "声をかけようか迷ったが、結局かけられなかった。",
+            "text_en": "I thought about calling out to her, but in the end, I couldn't."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（あのとき名刺をもらって、少し話して。それだけだったな。）",
+            "text_en": "(...She gave me her card, we talked a little. That was all it ever was.)"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "text_ja": "彼女は人混みの中に消えていった。",
+            "text_en": "She disappeared into the crowd."
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...もう少し、ちゃんと向き合えばよかったかもしれない。）",
+            "text_en": "(...Maybe I should have tried harder to reach out.)"
+        },
+        {
+            "scene_id": "scene_008",
+            "type": "end"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "event_id": "shiori_male_batting",
+    "title_ja": "バッティング",
+    "title_en": "Batting",
+    "character_id": "shiori_nagayama",
+    "scenes": [
+        {
+            "scene_id": "scene_001",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.surprised",
+            "text_ja": "あ...！",
+            "text_en": "Oh...!"
+        },
+        {
+            "scene_id": "scene_002",
+            "type": "dialogue",
+            "text_ja": "彼女は俺を見た瞬間、少し表情を曇らせた。",
+            "text_en": "The moment she saw me, her expression clouded slightly."
+        },
+        {
+            "scene_id": "scene_003",
+            "type": "dialogue",
+            "character": "shiori_nagayama",
+            "portrait": "casual.sad",
+            "text_ja": "...",
+            "text_en": "..."
+        },
+        {
+            "scene_id": "scene_004",
+            "type": "dialogue",
+            "text_ja": "そのまま視線を逸らし、足早に立ち去ってしまった。",
+            "text_en": "She looked away and walked off quickly."
+        },
+        {
+            "scene_id": "scene_005",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_006",
+            "type": "dialogue",
+            "character": "player",
+            "text_ja": "（...まずかったかな。）",
+            "text_en": "(...Did I do something wrong?)"
+        },
+        {
+            "scene_id": "scene_007",
+            "type": "end",
+            "stat_changes": {
+                "affection": -5,
+                "intimacy": -2
+            }
+        }
+    ]
+}
