@@ -15,7 +15,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
             "text_ja": "今日時間ある？会いたいな。",
             "text_en": "Are you free today? I want to see you."
         },
@@ -30,7 +29,6 @@
             "scene_id": "scene_004",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "ありがとう。じゃあ、河川敷歩かない？",
             "text_en": "Thanks. Want to walk along the riverside?"
         },
@@ -147,7 +145,6 @@
             "scene_id": "scene_021",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "こういうの好きだな。特に何するでもなく、ただいるだけって感じが。",
             "text_en": "I love this. Not doing anything in particular, just being here."
         },
@@ -162,7 +159,6 @@
             "scene_id": "scene_023",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "{{player.given_name}}くんと一緒だと、なんか落ち着く。",
             "text_en": "I feel at ease when I'm with you, {{player.given_name}}."
         },
@@ -177,7 +173,6 @@
             "scene_id": "scene_025",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "ほんとに。...ねえ、今日もこのままゆっくりしていい？",
             "text_en": "Really. ...Hey, is it okay if we just take it easy like this today?"
         },
@@ -197,16 +192,11 @@
         },
         {
             "scene_id": "scene_028",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
-        },
-        {
-            "scene_id": "scene_029",
             "type": "image",
             "background": "riverside"
         },
         {
-            "scene_id": "scene_030",
+            "scene_id": "scene_029",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -214,14 +204,14 @@
             "text_en": "Thanks for today. I shouldn't keep you out so late, you're in high school."
         },
         {
-            "scene_id": "scene_031",
+            "scene_id": "scene_030",
             "type": "dialogue",
             "character": "player",
             "text_ja": "はい。そろそろ帰りますね。",
             "text_en": "Yeah. I'll head home soon."
         },
         {
-            "scene_id": "scene_032",
+            "scene_id": "scene_031",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -229,7 +219,7 @@
             "text_en": "Okay. Until next time."
         },
         {
-            "scene_id": "scene_033",
+            "scene_id": "scene_032",
             "type": "end",
             "flags_set": ["shiori_male_holiday_walk_done"],
             "stat_changes": {

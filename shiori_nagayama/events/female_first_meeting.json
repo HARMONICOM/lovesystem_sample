@@ -33,8 +33,8 @@
         {
             "scene_id": "scene_005",
             "type": "dialogue",
-            "text_ja": "ぶつかる、と思った瞬間には遅かった。衝撃に体勢を崩し、その場に倒れ込んでしまった。",
-            "text_en": "By the time I thought 'we're going to collide,' it was too late. I lost my balance and fell."
+            "text_ja": "ぶつかる、と思った瞬間には遅かった。衝撃で体勢を崩し、その場に倒れ込んでしまった。",
+            "text_en": "By the time I thought 'we're going to collide,' it was too late. I lost my balance and fell from the impact."
         },
         {
             "scene_id": "scene_007",
@@ -283,7 +283,7 @@
             "scene_id": "scene_042",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
+            "portrait": "casual.smile",
             "text_ja": "永山です。永山詩織。",
             "text_en": "I'm Nagayama. Nagayama Shiori."
         },
@@ -313,7 +313,7 @@
         {
             "scene_id": "scene_046",
             "type": "dialogue",
-            "text_ja": "彼女は軽く頭を下げると行ってしまった。",
+            "text_ja": "彼女は深く頭を下げると行ってしまった。",
             "text_en": "She gave a small bow and left."
         },
         {

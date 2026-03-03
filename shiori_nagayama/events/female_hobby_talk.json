@@ -14,7 +14,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "今日ショッピングモール行くんだけど、よかったら一緒にどう？",
             "text_en": "I'm heading to the shopping mall today. Want to come along?"
         },
@@ -147,6 +146,11 @@
         },
         {
             "scene_id": "scene_021",
+            "type": "image",
+            "cg": "shiori_craft"
+        },
+        {
+            "scene_id": "scene_022",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.happy",
@@ -154,14 +158,14 @@
             "text_en": "Oh, I was just looking at that! I do sewing and knitting."
         },
         {
-            "scene_id": "scene_022",
+            "scene_id": "scene_023",
             "type": "dialogue",
             "character": "player",
             "text_ja": "えっ、すごい。私もちょっとやってみたくて。",
             "text_en": "Wow, that's amazing. I've been wanting to try that too."
         },
         {
-            "scene_id": "scene_023",
+            "scene_id": "scene_024",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.surprised",
@@ -169,14 +173,14 @@
             "text_en": "Really! Is there something you'd like to make?"
         },
         {
-            "scene_id": "scene_024",
+            "scene_id": "scene_025",
             "type": "dialogue",
             "character": "player",
             "text_ja": "セーターとか編んでみたいな...でも難しそうで。",
             "text_en": "I'd like to try knitting a sweater... but it looks so hard."
         },
         {
-            "scene_id": "scene_025",
+            "scene_id": "scene_026",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -184,14 +188,14 @@
             "text_en": "Start with a scarf. It's simple. Want me to teach you?"
         },
         {
-            "scene_id": "scene_026",
+            "scene_id": "scene_027",
             "type": "dialogue",
             "character": "player",
             "text_ja": "教えてもらえるんですか？",
             "text_en": "You'd really teach me?"
         },
         {
-            "scene_id": "scene_027",
+            "scene_id": "scene_028",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.happy",
@@ -199,14 +203,14 @@
             "text_en": "Of course! Let's do it sometime."
         },
         {
-            "scene_id": "scene_028",
+            "scene_id": "scene_029",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（なんか、距離が縮まった気がする。）",
             "text_en": "(...It feels like we've gotten a little closer.)"
         },
         {
-            "scene_id": "scene_029",
+            "scene_id": "scene_030",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -214,14 +218,14 @@
             "text_en": "It takes time, but the sense of accomplishment when it's done is really something."
         },
         {
-            "scene_id": "scene_030",
+            "scene_id": "scene_031",
             "type": "dialogue",
             "character": "player",
             "text_ja": "楽しそうですね。絶対教えてください。",
             "text_en": "That sounds wonderful. Please definitely teach me."
         },
         {
-            "scene_id": "scene_031",
+            "scene_id": "scene_032",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -229,13 +233,24 @@
             "text_en": "Leave it to me."
         },
         {
-            "scene_id": "scene_032",
+            "scene_id": "scene_033",
+            "type": "dialogue",
+            "text_ja": "...",
+            "text_en": "..."
+        },
+        {
+            "scene_id": "scene_034",
+            "type": "image",
+            "background": "shopping_mall"
+        },
+        {
+            "scene_id": "scene_035",
             "type": "dialogue",
             "text_ja": "二人で話しながら歩くうちに、あっという間に時間が過ぎた。",
             "text_en": "We walked and talked, and before I knew it, time had flown by."
         },
         {
-            "scene_id": "scene_033",
+            "scene_id": "scene_036",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -243,14 +258,14 @@
             "text_en": "Thanks for coming along today."
         },
         {
-            "scene_id": "scene_034",
+            "scene_id": "scene_037",
             "type": "dialogue",
             "character": "player",
             "text_ja": "楽しかったです。",
             "text_en": "It was a lot of fun."
         },
         {
-            "scene_id": "scene_035",
+            "scene_id": "scene_038",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -258,14 +273,14 @@
             "text_en": "Can I invite you again sometime?"
         },
         {
-            "scene_id": "scene_036",
+            "scene_id": "scene_039",
             "type": "dialogue",
             "character": "player",
             "text_ja": "もちろんです。",
             "text_en": "Of course."
         },
         {
-            "scene_id": "scene_037",
+            "scene_id": "scene_040",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -273,14 +288,14 @@
             "text_en": "Great. I'll message you then."
         },
         {
-            "scene_id": "scene_038",
+            "scene_id": "scene_041",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（なんか...また楽しみが増えた気がする。）",
             "text_en": "(...I feel like I have something new to look forward to.)"
         },
         {
-            "scene_id": "scene_039",
+            "scene_id": "scene_042",
             "type": "end",
             "flags_set": ["shiori_female_hobby_talk_done"],
             "stat_changes": {

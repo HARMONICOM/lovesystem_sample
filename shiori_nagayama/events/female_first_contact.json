@@ -20,7 +20,6 @@
             "scene_id": "scene_003",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "こんにちは。先日ショッピングモールでぶつかってしまった永山です。手の具合はどう？",
             "text_en": "Hello. This is Nagayama, the one who bumped into you at the shopping mall the other day. How's your hand?"
         },
@@ -54,7 +53,6 @@
             "scene_id": "scene_008",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "よかった。もしよかったら今度お詫びさせてね。",
             "text_en": "That's a relief. If you'd like, let me make it up to you sometime."
         },
@@ -69,7 +67,6 @@
             "scene_id": "scene_010",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "ありがとう。",
             "text_en": "Thank you."
         },

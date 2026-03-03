@@ -137,8 +137,8 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "そうなんだ。...あの、少し時間ある？",
-            "text_en": "I see. ...Um, do you have a bit of time?"
+            "text_ja": "そうなんだ...あの、少し時間ある？",
+            "text_en": "I see... Um, do you have a bit of time?"
         },
         {
             "scene_id": "scene_020",
@@ -152,8 +152,8 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "せめてお茶くらいおごらせて。お礼も兼ねて。",
-            "text_en": "Let me at least buy you a drink. Consider it a thank you."
+            "text_ja": "せめてお茶くらいおごらせて。お詫びも兼ねて。",
+            "text_en": "Let me at least buy you a drink. Consider it an apology."
         },
         {
             "scene_id": "scene_022",
@@ -206,7 +206,7 @@
         {
             "scene_id": "scene_q1a1_004",
             "type": "image",
-            "cg": "shiori_cafe"
+            "cg": "shiori_mall_cafe"
         },
         {
             "scene_id": "scene_q1a1_005",
@@ -218,7 +218,6 @@
             "scene_id": "scene_q1a1_006",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "改めて、この間はほんとにごめんなさい。",
             "text_en": "Once again, I'm really sorry about the other day."
         },
@@ -233,7 +232,6 @@
             "scene_id": "scene_q1a1_008",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "そうは言っても、ね...でも、ちゃんと治ってくれてよかった。",
             "text_en": "Even so... but I'm glad it healed up properly."
         },
@@ -248,7 +246,6 @@
             "scene_id": "scene_q1a1_010",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "それもあるんだけど、自分がぶつかって怪我させたっていうのが一番で。",
             "text_en": "Partly, but it's mostly that I was the one who caused the injury."
         },
@@ -263,7 +260,6 @@
             "scene_id": "scene_q1a1_012",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "そういえば、{{player.family_name}}くん高校生なんだよね。そこの近くの高校？",
             "text_en": "By the way, you're in high school, right? One of the nearby schools?"
         },
@@ -278,7 +274,6 @@
             "scene_id": "scene_q1a1_014",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "そうなんだ。よく生徒見かけるよ。若いっていいよねー。",
             "text_en": "I see. I see students from there all the time. Being young is great, isn't it."
         },
@@ -293,7 +288,6 @@
             "scene_id": "scene_q1a1_016",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "私もう23なんだよね。はー年は取りたくない。",
             "text_en": "I'm already 23, you know. Ugh, I don't want to get older."
         },
@@ -308,14 +302,14 @@
             "scene_id": "scene_q1a1_018",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "あはは、ありがとうねー。",
             "text_en": "Haha, thanks!"
         },
         {
             "scene_id": "scene_q1a1_019",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
+            "type": "dialogue",
+            "text_ja": "...",
+            "text_en": "..."
         },
         {
             "scene_id": "scene_q1a1_020",

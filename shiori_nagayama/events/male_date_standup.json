@@ -15,7 +15,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.angry",
             "text_ja": "...出た。",
             "text_en": "...You picked up."
         },
@@ -23,7 +22,6 @@
             "scene_id": "scene_003",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.angry",
             "text_ja": "待ったんだよ、私。一時間以上。",
             "text_en": "I waited, you know. Over an hour."
         },
@@ -38,7 +36,6 @@
             "scene_id": "scene_005",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.angry",
             "text_ja": "連絡くらいできたじゃない。何かあったとしても、一言あれば全然違うのに。",
             "text_en": "You could have at least sent a message. Even one word would have made all the difference."
         },
@@ -53,7 +50,6 @@
             "scene_id": "scene_007",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.serious",
             "text_ja": "なんで連絡しなかったの。",
             "text_en": "Why didn't you contact me?"
         },
@@ -74,7 +70,6 @@
             "scene_id": "scene_010",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.sad",
             "text_ja": "楽しみにしてたのに。",
             "text_en": "I was looking forward to it."
         },
@@ -95,7 +90,6 @@
             "scene_id": "scene_013",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "...反省してるのはわかった。",
             "text_en": "...I can tell you feel bad about it."
         },
@@ -103,7 +97,6 @@
             "scene_id": "scene_014",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.serious",
             "text_ja": "でも、次また同じことしたら、ちょっと考えるよ。",
             "text_en": "But if this happens again, I'll have to think things through."
         },
@@ -118,7 +111,6 @@
             "scene_id": "scene_016",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "...信じる、一応。",
             "text_en": "...I'll take your word for it, for now."
         },
@@ -133,7 +125,6 @@
             "scene_id": "scene_018",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "...する。絶対させる。",
             "text_en": "...I will. You can count on it."
         },
@@ -148,8 +139,7 @@
             "scene_id": "scene_020",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
-            "text_ja": "じゃあ、おやすみ。",
+            "text_ja": "じゃあね、おやすみ。",
             "text_en": "Goodnight then."
         },
         {

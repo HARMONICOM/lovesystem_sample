@@ -14,7 +14,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "{{player.given_name}}くん、今度のお休みって空いてる？",
             "text_en": "{{player.given_name}}, are you free on your next day off?"
         },
@@ -29,7 +28,6 @@
             "scene_id": "scene_004",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.happy",
             "text_ja": "じゃあ、どこか行かない？二人で。",
             "text_en": "Then let's go somewhere together."
         },
@@ -44,7 +42,6 @@
             "scene_id": "scene_006",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "映画とか、どうかな。あとご飯。",
             "text_en": "What about a movie? And dinner after."
         },
@@ -59,7 +56,6 @@
             "scene_id": "scene_008",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.happy",
             "text_ja": "決まり。じゃあ28日の日曜日、お昼に映画館で。楽しみにしてる。",
             "text_en": "It's a date then. Sunday the 28th, noon at the movie theater. I'm looking forward to it!"
         },

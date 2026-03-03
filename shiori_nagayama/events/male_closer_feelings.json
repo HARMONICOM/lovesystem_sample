@@ -15,7 +15,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "今日、時間ある？散歩でもしたくて。",
             "text_en": "Are you free today? I feel like going for a walk."
         },
@@ -30,7 +29,6 @@
             "scene_id": "scene_004",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "河川敷でどうかな。",
             "text_en": "How about the riverside?"
         },
@@ -125,7 +123,6 @@
             "scene_id": "scene_018",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "{{player.family_name}}くんって、悩んでることとかあったりする？",
             "text_en": "Do you have things you worry about, {{player.family_name}}?"
         },
@@ -140,7 +137,6 @@
             "scene_id": "scene_020",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "なんかほっとした。私だけじゃないんだって思えて。",
             "text_en": "That's reassuring. Makes me feel like I'm not alone."
         },
@@ -155,7 +151,6 @@
             "scene_id": "scene_022",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "そりゃ悩むよ。仕事のことも、自分のこともいろいろと。",
             "text_en": "Of course I do. About work, about myself, all sorts of things."
         },
@@ -170,7 +165,6 @@
             "scene_id": "scene_024",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "...私って、人の前では割と明るくしてるじゃない？",
             "text_en": "...I put on a pretty cheerful front around people, right?"
         },
@@ -185,7 +179,6 @@
             "scene_id": "scene_026",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.serious",
             "text_ja": "でも、正直、それで全部大丈夫なわけじゃなくて。たまに、ひとりになるのが怖くなるときがあって。",
             "text_en": "But honestly, that doesn't mean everything's fine. Sometimes I'm afraid of being alone."
         },
@@ -200,7 +193,6 @@
             "scene_id": "scene_028",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.sad",
             "text_ja": "一人暮らしで、実家も遠いし、仕事は好きだけど。ときどき、誰かにそばにいてほしいって思う。",
             "text_en": "I live alone, my family is far away, I love my work, but... sometimes I just want someone to be near."
         },
@@ -222,7 +214,6 @@
             "scene_id": "scene_031",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.surprised",
             "text_ja": "え？",
             "text_en": "Hm?"
         },
@@ -243,7 +234,6 @@
             "scene_id": "scene_034",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
             "text_ja": "...なんかずるいね、そういう言い方。",
             "text_en": "...That's not fair, saying it like that."
         },
@@ -258,7 +248,6 @@
             "scene_id": "scene_036",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "うん。でも、嬉しい。",
             "text_en": "Yeah. But it makes me happy."
         },
@@ -304,7 +293,7 @@
             "scene_id": "scene_043",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
+            "portrait": "casual.relieved",
             "text_ja": "また...誘ってもいい？",
             "text_en": "Can I... invite you again?"
         },

@@ -14,7 +14,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "今日学校終わるの何時？",
             "text_en": "What time does school end for you today?"
         },
@@ -29,7 +28,6 @@
             "scene_id": "scene_004",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "じゃあ合流できる？駅で待ってる。",
             "text_en": "Can we meet up then? I'll wait at the station."
         },
@@ -88,64 +86,57 @@
         },
         {
             "scene_id": "scene_013",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
-        },
-        {
-            "scene_id": "scene_014",
             "type": "image",
             "cg": "shiori_cafe"
         },
         {
-            "scene_id": "scene_015",
+            "scene_id": "scene_014",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "学校どうだった？",
             "text_en": "How was school?"
         },
         {
-            "scene_id": "scene_016",
+            "scene_id": "scene_015",
             "type": "dialogue",
             "character": "player",
             "text_ja": "まあいつも通りで。詩織さんは？",
             "text_en": "Same as usual. What about you, Shiori-san?"
         },
         {
-            "scene_id": "scene_017",
+            "scene_id": "scene_016",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "私も普通かな。ちょっと患者さんの調子が気になる人がいて。",
             "text_en": "Pretty normal on my end too. Just a bit worried about one of my patients."
         },
         {
-            "scene_id": "scene_018",
+            "scene_id": "scene_017",
             "type": "dialogue",
             "character": "player",
             "text_ja": "大変ですね。",
             "text_en": "That sounds tough."
         },
         {
-            "scene_id": "scene_019",
+            "scene_id": "scene_018",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "こうして話してると落ち着くね。",
             "text_en": "Talking like this helps me relax."
         },
         {
-            "scene_id": "scene_020",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
+            "scene_id": "scene_019",
+            "type": "dialogue",
+            "text_ja": "...",
+            "text_en": "..."
         },
         {
-            "scene_id": "scene_021",
+            "scene_id": "scene_020",
             "type": "image",
             "background": "cafe"
         },
         {
-            "scene_id": "scene_022",
+            "scene_id": "scene_021",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",

@@ -137,8 +137,8 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "そうなんだ。...あの、少し時間ある？",
-            "text_en": "I see. ...Um, do you have a bit of time?"
+            "text_ja": "そうなんだ...あの、少し時間ある？",
+            "text_en": "I see... Um, do you have a bit of time?"
         },
         {
             "scene_id": "scene_020",
@@ -218,7 +218,6 @@
             "scene_id": "scene_q1a1_006",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "改めて、この間はほんとにごめんなさい。",
             "text_en": "Once again, I'm really sorry about the other day."
         },
@@ -233,7 +232,6 @@
             "scene_id": "scene_q1a1_008",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "そうは言っても、ね。...でも、ちゃんと治ってくれてよかった。",
             "text_en": "Even so... but I'm glad it healed up properly."
         },
@@ -248,7 +246,6 @@
             "scene_id": "scene_q1a1_010",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "看護師やってると染み付いちゃって。",
             "text_en": "It's become a habit from being a nurse."
         },
@@ -263,7 +260,6 @@
             "scene_id": "scene_q1a1_012",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "街の病院で働いてて、訪問看護もやってる。",
             "text_en": "I work at a hospital in town, and I also do home care visits."
         },
@@ -285,7 +281,6 @@
             "scene_id": "scene_q1a1_015",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "そうだね...昔私のおばあちゃんの世話をしたことがあってね。看護がうまいって喜んでくれたんだ。",
             "text_en": "Well... I used to care for my grandmother when I was younger. She said I had a knack for nursing and was so happy."
         },
@@ -300,7 +295,6 @@
             "scene_id": "scene_q1a1_017",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "嬉しかったんだよね、すごく。それで、こういう仕事がしたいと思って。",
             "text_en": "It made me so happy. And that's when I thought — this is what I want to do."
         },
@@ -315,7 +309,6 @@
             "scene_id": "scene_q1a1_019",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "そういえば、いま高校生なんだよね？学校楽しい？",
             "text_en": "By the way, you're in high school now, right? Is school fun?"
         },
@@ -330,7 +323,6 @@
             "scene_id": "scene_q1a1_021",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "いいなー。私も高校時代に戻りたい。気づけばもう23のおばちゃんよ。",
             "text_en": "That sounds nice. I wish I could go back to high school. Here I am, already 23."
         },
@@ -345,7 +337,6 @@
             "scene_id": "scene_q1a1_023",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "なんか、話しやすいな、{{player.family_name}}さん。",
             "text_en": "You're easy to talk to, {{player.family_name}}-san."
         },
@@ -360,7 +351,6 @@
             "scene_id": "scene_q1a1_025",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "ちゃんと聞いてくれる感じがして。",
             "text_en": "It feels like you really listen."
         },
@@ -465,11 +455,6 @@
             "character": "player",
             "text_ja": "（もう少し話してみてもよかったかな...）",
             "text_en": "(...Maybe I should have talked longer.)"
-        },
-        {
-            "scene_id": "scene_q1a2_007",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
         },
         {
             "scene_id": "scene_q1a2_end",

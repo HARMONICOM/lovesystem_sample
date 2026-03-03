@@ -135,12 +135,18 @@
             "text_en": "Talking with you like this is calming."
         },
         {
-            "scene_id": "scene_020",
+          "scene_id": "scene_020",
+          "type": "dialogue",
+          "text_ja": "...",
+          "text_en": "..."
+      },
+      {
+            "scene_id": "scene_021",
             "type": "image",
             "background": "cafe"
         },
         {
-            "scene_id": "scene_021",
+            "scene_id": "scene_022",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -148,14 +154,14 @@
             "text_en": "We should probably get going soon."
         },
         {
-            "scene_id": "scene_022",
+            "scene_id": "scene_023",
             "type": "dialogue",
             "character": "player",
             "text_ja": "はい。でもまた明日も会えます。",
             "text_en": "Yeah. But we can always meet again tomorrow."
         },
         {
-            "scene_id": "scene_023",
+            "scene_id": "scene_024",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -163,7 +169,7 @@
             "text_en": "True. Let's both do our best tomorrow."
         },
         {
-            "scene_id": "scene_024",
+            "scene_id": "scene_025",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -171,14 +177,14 @@
             "text_en": "Seeing you always gives me energy, {{player.given_name}}-chan."
         },
         {
-            "scene_id": "scene_025",
+            "scene_id": "scene_026",
             "type": "dialogue",
             "character": "player",
             "text_ja": "私もです。",
             "text_en": "Same here."
         },
         {
-            "scene_id": "scene_026",
+            "scene_id": "scene_027",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -186,7 +192,7 @@
             "text_en": "I'm glad. See you then."
         },
         {
-            "scene_id": "scene_027",
+            "scene_id": "scene_028",
             "type": "end",
             "stat_changes": {
                 "affection": 3,

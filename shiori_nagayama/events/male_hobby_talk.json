@@ -124,8 +124,8 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "じゃあ一緒に選ぼうか。私、人の服選ぶの好きで。",
-            "text_en": "Then let's pick something out together. I love choosing clothes for people."
+            "text_ja": "じゃあ一緒に選ぼうか。私、人の服選ぶのも好きで。",
+            "text_en": "Then let's pick something out together. I also love choosing clothes for people."
         },
         {
             "scene_id": "scene_018",
@@ -207,7 +207,7 @@
             "scene_id": "scene_029",
             "type": "dialogue",
             "character": "player",
-            "text_ja": "（看護師として忙しく働きながら、ちゃんと自分の時間も持ってるんだな。）",
+            "text_ja": "（看護師として忙しく働きながら、ちゃんと自分の時間も作ってるんだな。）",
             "text_en": "(Even working hard as a nurse, she carves out time for herself.)"
         },
         {
@@ -218,6 +218,11 @@
         },
         {
             "scene_id": "scene_031",
+            "type": "image",
+            "background": "shopping_mall"
+        },
+        {
+            "scene_id": "scene_032",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -225,14 +230,14 @@
             "text_en": "Thanks for going around with me today."
         },
         {
-            "scene_id": "scene_032",
+            "scene_id": "scene_033",
             "type": "dialogue",
             "character": "player",
             "text_ja": "楽しかったです。",
             "text_en": "I had a good time."
         },
         {
-            "scene_id": "scene_033",
+            "scene_id": "scene_034",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -240,14 +245,14 @@
             "text_en": "Hey, can I invite you again sometime?"
         },
         {
-            "scene_id": "scene_034",
+            "scene_id": "scene_035",
             "type": "dialogue",
             "character": "player",
             "text_ja": "もちろんです。",
             "text_en": "Of course."
         },
         {
-            "scene_id": "scene_035",
+            "scene_id": "scene_036",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -255,14 +260,14 @@
             "text_en": "Yay. I'll message you then."
         },
         {
-            "scene_id": "scene_036",
+            "scene_id": "scene_037",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（なんか...また楽しみが増えた気がする。）",
             "text_en": "(...I feel like I've got something to look forward to.)"
         },
         {
-            "scene_id": "scene_037",
+            "scene_id": "scene_038",
             "type": "end",
             "flags_set": ["shiori_male_hobby_talk_done"],
             "stat_changes": {

@@ -37,8 +37,8 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "そう。このコートどっちがいいか迷ってて。",
-            "text_en": "Yeah. I can't decide which coat to get."
+            "text_ja": "そう。このブラウスどっちがいいか迷ってて。",
+            "text_en": "Yeah. I can't decide which blouse to get."
         },
         {
             "scene_id": "scene_006",
@@ -50,8 +50,8 @@
             "scene_id": "scene_007",
             "type": "dialogue",
             "character": "player",
-            "text_ja": "どっちも似合いそうですけどね。",
-            "text_en": "Honestly, both look good on you."
+            "text_ja": "どっちも似合いそうですね。",
+            "text_en": "Both look good on you."
         },
         {
             "scene_id": "scene_008",
@@ -73,18 +73,23 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.happy",
-            "text_ja": "じゃあ、一個買ったらもう一個は今度。また来る。じゃあね。",
-            "text_en": "Alright, I'll get one now and come back for the other. See you!"
+            "text_ja": "じゃあ、一着買ってもう一着は今度。また来る。じゃあね。",
+            "text_en": "Then I'll buy one now and come back for the other next time. See you around!"
         },
         {
             "scene_id": "scene_011",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_012",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（また来るって言ってたな。）",
             "text_en": "(...She said she'd be back.)"
         },
         {
-            "scene_id": "scene_012",
+            "scene_id": "scene_013",
             "type": "end",
             "stat_changes": {
                 "affection": 3,

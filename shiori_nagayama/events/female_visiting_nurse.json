@@ -55,8 +55,8 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "はい。...ちょっと、頭冷やしたくて。",
-            "text_en": "Yes. ...I just needed to clear my head a bit."
+            "text_ja": "うん...ちょっと、頭冷やしたくて。",
+            "text_en": "Yeah... I just needed to clear my head a bit."
         },
         {
             "scene_id": "scene_009",
@@ -176,14 +176,14 @@
         },
         {
             "scene_id": "scene_025",
-            "type": "image",
-            "background": "park"
-        },
-        {
-            "scene_id": "scene_026",
             "type": "dialogue",
             "text_ja": "しばらく、二人でそのまま公園の景色を眺めた。",
             "text_en": "For a while, the two of us just sat and looked at the park."
+        },
+        {
+            "scene_id": "scene_026",
+            "type": "image",
+            "background": "park"
         },
         {
             "scene_id": "scene_027",

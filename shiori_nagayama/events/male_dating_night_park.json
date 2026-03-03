@@ -14,7 +14,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "外の空気吸いたい気分で。公園に来れない？",
             "text_en": "I feel like getting some fresh air. Can you come to the park?"
         },
@@ -34,12 +33,17 @@
         },
         {
             "scene_id": "scene_005",
+            "type": "location_change",
+            "location": "park"
+        },
+        {
+            "scene_id": "scene_006",
             "type": "dialogue",
             "text_ja": "公園に行くと詩織さんがいた。",
             "text_en": "Shiori-san was already at the park when I arrived."
         },
         {
-            "scene_id": "scene_006",
+            "scene_id": "scene_007",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -47,14 +51,14 @@
             "text_en": "There's something nice about the park at night. It's calming."
         },
         {
-            "scene_id": "scene_007",
+            "scene_id": "scene_008",
             "type": "dialogue",
             "character": "player",
             "text_ja": "そうですね。",
             "text_en": "Yeah, it is."
         },
         {
-            "scene_id": "scene_008",
+            "scene_id": "scene_009",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -62,14 +66,14 @@
             "text_en": "I was a bit worn out today. But meeting up with you helped me settle down."
         },
         {
-            "scene_id": "scene_009",
+            "scene_id": "scene_010",
             "type": "dialogue",
             "character": "player",
             "text_ja": "それはよかった。",
             "text_en": "I'm glad."
         },
         {
-            "scene_id": "scene_010",
+            "scene_id": "scene_011",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -77,14 +81,14 @@
             "text_en": "You always make me feel safe somehow, {{player.family_name}}."
         },
         {
-            "scene_id": "scene_011",
+            "scene_id": "scene_012",
             "type": "dialogue",
             "character": "player",
             "text_ja": "安心、か。",
             "text_en": "Safe, huh."
         },
         {
-            "scene_id": "scene_012",
+            "scene_id": "scene_013",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -92,20 +96,26 @@
             "text_en": "In a good way."
         },
         {
-            "scene_id": "scene_013",
+            "scene_id": "scene_014",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（...俺も、この人といると安心する。）",
             "text_en": "(...I feel the same way when I'm with her.)"
         },
         {
-            "scene_id": "scene_014",
+            "scene_id": "scene_015",
             "type": "dialogue",
             "text_ja": "しばらく、ただそこにいた。言葉はなくても、それで十分だった。",
             "text_en": "For a while, we just stayed there. No words necessary."
         },
         {
-            "scene_id": "scene_015",
+            "scene_id": "scene_016",
+            "type": "dialogue",
+            "text_ja": "...",
+            "text_en": "..."
+        },
+        {
+            "scene_id": "scene_017",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -113,14 +123,14 @@
             "text_en": "Shall we head back?"
         },
         {
-            "scene_id": "scene_016",
+            "scene_id": "scene_018",
             "type": "dialogue",
             "character": "player",
             "text_ja": "うん。",
             "text_en": "Yeah."
         },
         {
-            "scene_id": "scene_017",
+            "scene_id": "scene_019",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -128,7 +138,7 @@
             "text_en": "Thank you again today."
         },
         {
-            "scene_id": "scene_018",
+            "scene_id": "scene_020",
             "type": "end",
             "stat_changes": {
                 "affection": 2,

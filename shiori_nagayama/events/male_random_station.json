@@ -73,13 +73,18 @@
         },
         {
             "scene_id": "scene_010",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_011",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（短い時間だったけど、悪くなかった。）",
             "text_en": "(...It was brief, but not bad at all.)"
         },
         {
-            "scene_id": "scene_011",
+            "scene_id": "scene_012",
             "type": "end",
             "stat_changes": {
                 "affection": 2,

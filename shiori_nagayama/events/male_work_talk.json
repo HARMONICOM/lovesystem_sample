@@ -15,7 +15,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "ねえねえ、このあとヒマ？ちょっとお茶しない？",
             "text_en": "Hey, are you free after this? Want to grab a drink?"
         },
@@ -30,7 +29,6 @@
             "scene_id": "scene_004",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "ありがとう。じゃあカフェで待ち合わせね。",
             "text_en": "Thanks. Let's meet at the cafe then."
         },
@@ -75,7 +73,6 @@
             "scene_id": "scene_011",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "ありがとう。もう今日大変で。",
             "text_en": "Thanks. Today was really tough."
         },
@@ -90,7 +87,6 @@
             "scene_id": "scene_013",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "まあ、そういう日もあってね...",
             "text_en": "Well, some days are like that..."
         },
@@ -105,7 +101,6 @@
             "scene_id": "scene_015",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "うん。そうなのよー。実は訪問先のおじいちゃんが体調崩してて、でも入院を嫌がってて。",
             "text_en": "Yeah. Actually, one of my home-care patients, an elderly man, isn't doing well, but he refuses to be hospitalized."
         },
@@ -120,7 +115,6 @@
             "scene_id": "scene_017",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.serious",
             "text_ja": "本人の意思は大事にしたいけど、でも状態が心配で。どうするのがいいのか、ちょっと悩んでて。",
             "text_en": "I want to respect his wishes, but his condition worries me. I've been struggling with what's best."
         },
@@ -135,9 +129,8 @@
             "scene_id": "scene_019",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
-            "text_ja": "患者さんのこと、ただ処置するだけじゃなくて、その人の生活まるごと一緒に考えるのが訪問看護の仕事な気がしてて。",
-            "text_en": "I feel like home care isn't just about treatment — it's about thinking through someone's whole life alongside them."
+            "text_ja": "患者さんのこと、ただ処置するだけじゃなくて、その人の生活まるごと一緒に考えるのが看護の仕事な気がしてて。",
+            "text_en": "I feel like nursing isn't just about treatment — it's about thinking through someone's whole life alongside them."
         },
         {
             "scene_id": "scene_020",
@@ -150,9 +143,8 @@
             "scene_id": "scene_021",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
-            "text_ja": "そうだね...昔私のおばあちゃんの世話をしたことがあってね。看護がうまいって喜んでくれたんだ。",
-            "text_en": "Well... I used to take care of my grandmother when I was younger. She was happy and said I had a knack for nursing."
+            "text_ja": "そうだね...昔、私のおばあちゃんの世話をしたことがあってね。看護がうまいって喜んでくれたんだ。",
+            "text_en": "Well... I used to take care of my grandmother when I was younger. She was happy and said I was good at nursing."
         },
         {
             "scene_id": "scene_022",
@@ -165,7 +157,6 @@
             "scene_id": "scene_023",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "嬉しかったんだよね、すごく。それで、こういう仕事がしたいと思って。",
             "text_en": "It made me so happy. That's when I thought — this is the kind of work I want to do."
         },
@@ -187,7 +178,6 @@
             "scene_id": "scene_026",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
             "text_ja": "...そんなこと言われると照れるな。",
             "text_en": "...It makes me embarrassed when you say things like that."
         },
@@ -202,7 +192,6 @@
             "scene_id": "scene_028",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "{{player.family_name}}くんって、なんか、人の話聞くの上手だね。",
             "text_en": "You know, {{player.family_name}}, you're really good at listening."
         },
@@ -217,7 +206,6 @@
             "scene_id": "scene_030",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "うん。ちゃんと受け止めてくれる感じがして、話しやすい。",
             "text_en": "Yeah. It feels like you really take in what I'm saying. Easy to talk to."
         },
@@ -235,22 +223,17 @@
         },
         {
             "scene_id": "scene_033",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
-        },
-        {
-            "scene_id": "scene_034",
             "type": "location_change",
             "location": "station"
         },
         {
-            "scene_id": "scene_035",
+            "scene_id": "scene_034",
             "type": "dialogue",
             "text_ja": "時間が経つのも忘れて話し込んでしまい、気づけば外はすっかり暗くなっていた。",
             "text_en": "We talked so long we forgot the time, and by the time I noticed, it was already dark outside."
         },
         {
-            "scene_id": "scene_036",
+            "scene_id": "scene_035",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.surprised",
@@ -258,14 +241,14 @@
             "text_en": "Oh, look at the time. Sorry, I just kept rambling on."
         },
         {
-            "scene_id": "scene_037",
+            "scene_id": "scene_036",
             "type": "dialogue",
             "character": "player",
             "text_ja": "楽しかったので全然。",
             "text_en": "I enjoyed it, no worries at all."
         },
         {
-            "scene_id": "scene_038",
+            "scene_id": "scene_037",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -273,14 +256,14 @@
             "text_en": "Me too. Well, until next time."
         },
         {
-            "scene_id": "scene_039",
+            "scene_id": "scene_038",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（また、か...最近それが楽しみになってる気がする。）",
             "text_en": "(...Until next time, huh... lately I've been looking forward to that.)"
         },
         {
-            "scene_id": "scene_040",
+            "scene_id": "scene_039",
             "type": "end",
             "flags_set": ["shiori_male_work_talk_done"],
             "stat_changes": {

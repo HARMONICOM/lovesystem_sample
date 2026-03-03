@@ -62,9 +62,8 @@
             "scene_id": "scene_009",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
-            "text_ja": "この映画前から観たかったんだよね。楽しみ。",
-            "text_en": "I've been wanting to see this movie for a while. So excited!"
+            "text_ja": "この映画、前から観たかったんだよね。楽しみ。",
+            "text_en": "I've been wanting to see this movie for a while. I'm excited!"
         },
         {
             "scene_id": "scene_010",
@@ -77,68 +76,65 @@
             "scene_id": "scene_011",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "あっ、そろそろ始まるね。",
             "text_en": "Oh, it's about to start."
         },
         {
             "scene_id": "scene_012",
             "type": "dialogue",
-            "text_ja": "エンドロールが流れ始めると、詩織さんが小声で言った。",
-            "text_en": "As the end credits began to roll, Shiori-san said softly:"
+            "text_ja": "...",
+            "text_en": "..."
         },
         {
             "scene_id": "scene_013",
             "type": "dialogue",
+            "text_ja": "エンドロールが流れ始めると、詩織さんが小声で言った。",
+            "text_en": "As the end credits began to roll, Shiori-san said softly:"
+        },
+        {
+            "scene_id": "scene_014",
+            "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "...よかったね。",
             "text_en": "...That was good."
         },
         {
-            "scene_id": "scene_014",
+            "scene_id": "scene_015",
             "type": "dialogue",
             "character": "player",
             "text_ja": "うん。",
             "text_en": "Yeah."
         },
         {
-            "scene_id": "scene_015",
+            "scene_id": "scene_016",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "こういうの、久しぶりだな。誰かと映画見るの。",
             "text_en": "It's been a while since I've watched a movie with someone."
         },
         {
-            "scene_id": "scene_016",
+            "scene_id": "scene_017",
             "type": "dialogue",
             "character": "player",
             "text_ja": "いつも一人で行くんですか？",
             "text_en": "Do you usually go by yourself?"
         },
         {
-            "scene_id": "scene_017",
+            "scene_id": "scene_018",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "基本は。友達とたまに行くくらいで。",
             "text_en": "Mostly, yeah. Sometimes with friends."
         },
         {
-            "scene_id": "scene_018",
+            "scene_id": "scene_019",
             "type": "time_advance",
             "advance_to_time": "evening"
         },
         {
-            "scene_id": "scene_019",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
-        },
-        {
             "scene_id": "scene_020",
             "type": "location_change",
-            "location": "restaurant"
+            "location": "family_restaurant"
         },
         {
             "scene_id": "scene_021",
@@ -175,7 +171,6 @@
             "scene_id": "scene_026",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.happy",
             "text_ja": "何にしよう。いっぱいあって迷う。",
             "text_en": "What should I get... there's so much to choose from."
         },
@@ -183,7 +178,6 @@
             "scene_id": "scene_027",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "{{player.given_name}}くんって、映画好き？",
             "text_en": "Do you like movies, {{player.given_name}}?"
         },
@@ -198,7 +192,6 @@
             "scene_id": "scene_029",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "私も。でも、好きな作品は何度でも見ちゃう。",
             "text_en": "Me neither. But when I love something, I watch it over and over."
         },
@@ -213,7 +206,6 @@
             "scene_id": "scene_031",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "登場人物が頑張ってる話が好きで。特に仕事とか、人間関係とか。",
             "text_en": "Stories where people really work hard. Especially about jobs or relationships."
         },
@@ -228,7 +220,6 @@
             "scene_id": "scene_033",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.surprised",
             "text_ja": "らしい？",
             "text_en": "Just like me?"
         },
@@ -243,7 +234,6 @@
             "scene_id": "scene_035",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
             "text_ja": "...そうかも。なんか、そういうの見ると自分も頑張ろうって思えて。",
             "text_en": "...Maybe. Seeing that kind of story makes me want to try harder myself."
         },
@@ -261,22 +251,17 @@
         },
         {
             "scene_id": "scene_038",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
-        },
-        {
-            "scene_id": "scene_039",
             "type": "location_change",
             "location": "park"
         },
         {
-            "scene_id": "scene_040",
+            "scene_id": "scene_039",
             "type": "dialogue",
             "text_ja": "食後、近くの公園を少し歩いた。",
             "text_en": "After eating, we took a short walk through a nearby park."
         },
         {
-            "scene_id": "scene_041",
+            "scene_id": "scene_040",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -284,14 +269,14 @@
             "text_en": "Today was so much fun."
         },
         {
-            "scene_id": "scene_042",
+            "scene_id": "scene_041",
             "type": "dialogue",
             "character": "player",
             "text_ja": "俺もです。",
             "text_en": "Same here."
         },
         {
-            "scene_id": "scene_043",
+            "scene_id": "scene_042",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
@@ -299,14 +284,14 @@
             "text_en": "Let's do something like this again."
         },
         {
-            "scene_id": "scene_044",
+            "scene_id": "scene_043",
             "type": "dialogue",
             "character": "player",
             "text_ja": "うん、ぜひ。",
             "text_en": "Definitely."
         },
         {
-            "scene_id": "scene_045",
+            "scene_id": "scene_044",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -314,32 +299,32 @@
             "text_en": "...Being with you makes me happy, {{player.given_name}}."
         },
         {
-            "scene_id": "scene_046",
+            "scene_id": "scene_045",
             "type": "dialogue",
             "character": "player",
             "text_ja": "俺も同じです。",
             "text_en": "I feel the same way."
         },
         {
-            "scene_id": "scene_047",
+            "scene_id": "scene_046",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
+            "portrait": "casual.relieved",
             "text_ja": "そういうこと、さらっと言うよね。",
             "text_en": "You say things like that so casually."
         },
         {
-            "scene_id": "scene_048",
+            "scene_id": "scene_047",
             "type": "dialogue",
             "character": "player",
             "text_ja": "本当のことだから。",
             "text_en": "Because it's true."
         },
         {
-            "scene_id": "scene_049",
+            "scene_id": "scene_048",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.happy",
+            "portrait": "casual.shy",
             "text_ja": "...もう。",
             "text_en": "...Honestly."
         },

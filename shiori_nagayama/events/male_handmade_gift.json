@@ -15,7 +15,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
             "text_ja": "今日時間ある？会いたいな。",
             "text_en": "Are you free today? I want to see you."
         },
@@ -30,7 +29,6 @@
             "scene_id": "scene_004",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "じゃあ、カフェで待ち合わせしよう。ありがとうね。",
             "text_en": "Let's meet at the cafe then. Thanks!"
         },
@@ -43,6 +41,11 @@
         },
         {
             "scene_id": "scene_006",
+            "type": "location_change",
+            "location": "cafe"
+        },
+        {
+            "scene_id": "scene_007",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.worried",
@@ -50,14 +53,14 @@
             "text_en": "Sorry! Did I keep you waiting?"
         },
         {
-            "scene_id": "scene_007",
+            "scene_id": "scene_008",
             "type": "dialogue",
             "character": "player",
             "text_ja": "いえ、今来たばかりなんで。",
             "text_en": "No, I just got here myself."
         },
         {
-            "scene_id": "scene_008",
+            "scene_id": "scene_009",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.relieved",
@@ -65,192 +68,178 @@
             "text_en": "Thanks for coming all the way."
         },
         {
-            "scene_id": "scene_009",
+            "scene_id": "scene_010",
             "type": "character_hide",
             "character": "shiori_nagayama"
         },
         {
-            "scene_id": "scene_010",
+            "scene_id": "scene_011",
             "type": "image",
             "cg": "shiori_cafe"
         },
         {
-            "scene_id": "scene_011",
+            "scene_id": "scene_012",
             "type": "dialogue",
             "text_ja": "席に着くと、詩織さんは少し照れくさそうにバッグをごそごそと漁り始めた。",
             "text_en": "Once we sat down, Shiori-san started rummaging through her bag with a slightly embarrassed look."
         },
         {
-            "scene_id": "scene_012",
+            "scene_id": "scene_013",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
             "text_ja": "あの...これ。",
             "text_en": "Um... here."
         },
         {
-            "scene_id": "scene_013",
+            "scene_id": "scene_014",
             "type": "dialogue",
             "text_ja": "差し出されたのは、きれいに包まれた小さな包みだった。",
             "text_en": "She held out a small, neatly wrapped package."
         },
         {
-            "scene_id": "scene_014",
+            "scene_id": "scene_015",
             "type": "dialogue",
             "character": "player",
             "text_ja": "え、なんですか？",
             "text_en": "Oh, what's this?"
         },
         {
-            "scene_id": "scene_015",
+            "scene_id": "scene_016",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "開けてみて。",
             "text_en": "Open it."
         },
         {
-            "scene_id": "scene_016",
+            "scene_id": "scene_017",
             "type": "dialogue",
             "text_ja": "包みを開けると、触り心地のいいタオル地のハンカチが入っていた。",
             "text_en": "Inside the wrapping was a soft terrycloth handkerchief."
         },
         {
-            "scene_id": "scene_017",
+            "scene_id": "scene_018",
             "type": "dialogue",
             "character": "player",
             "text_ja": "これ...詩織さんが作ったんですか？",
             "text_en": "Did... did you make this, Shiori-san?"
         },
         {
-            "scene_id": "scene_018",
+            "scene_id": "scene_019",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
             "text_ja": "うん、{{player.given_name}}くんにあげたいなって思って。",
             "text_en": "Yeah, I thought I wanted to give it to you, {{player.given_name}}."
         },
         {
-            "scene_id": "scene_019",
+            "scene_id": "scene_020",
             "type": "dialogue",
             "character": "player",
             "text_ja": "いいんですか？",
             "text_en": "Is that really okay?"
         },
         {
-            "scene_id": "scene_020",
+            "scene_id": "scene_021",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "いいよ。よかったら。",
             "text_en": "Of course. If you'd like it."
         },
         {
-            "scene_id": "scene_021",
+            "scene_id": "scene_022",
             "type": "dialogue",
             "character": "player",
             "text_ja": "...ありがとうございます。大事にします。",
             "text_en": "...Thank you. I'll treasure it."
         },
         {
-            "scene_id": "scene_022",
+            "scene_id": "scene_023",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "使ってくれたら嬉しいな。",
             "text_en": "I'd be happy if you used it."
         },
         {
-            "scene_id": "scene_023",
+            "scene_id": "scene_024",
             "type": "dialogue",
             "character": "player",
-            "text_ja": "（こんなもの、もらえると思ってなかったな。）",
+            "text_ja": "（こんないいもの、もらえると思ってなかったな。）",
             "text_en": "(I never expected to receive something like this.)"
         },
         {
-            "scene_id": "scene_024",
+            "scene_id": "scene_025",
             "type": "dialogue",
             "text_ja": "ハンカチを手に持ったまま、なんとなく言葉が出なかった。",
             "text_en": "I held the handkerchief in my hands, momentarily at a loss for words."
         },
         {
-            "scene_id": "scene_025",
-            "type": "dialogue",
-            "character": "player",
-            "text_ja": "詩織さんって、本当に手先が器用なんですね。",
-            "text_en": "You really are skilled with your hands, Shiori-san."
-        },
-        {
             "scene_id": "scene_026",
             "type": "dialogue",
+            "character": "player",
+            "text_ja": "詩織さんって、本当に器用なんですね。",
+            "text_en": "You really are skilled, Shiori-san."
+        },
+        {
+            "scene_id": "scene_027",
+            "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "時間かかったけどね。家で時間あるときにちょっとずつ。",
             "text_en": "It took a while. I worked on it little by little in my free time at home."
         },
         {
-            "scene_id": "scene_027",
+            "scene_id": "scene_028",
             "type": "dialogue",
             "character": "player",
             "text_ja": "それを俺に...",
             "text_en": "And you made it for me..."
         },
         {
-            "scene_id": "scene_028",
+            "scene_id": "scene_029",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
             "text_ja": "そんな大げさに受け取られると照れちゃう。",
             "text_en": "Don't make such a big deal of it, it's embarrassing."
         },
         {
-            "scene_id": "scene_029",
+            "scene_id": "scene_030",
             "type": "dialogue",
             "character": "player",
             "text_ja": "いや、嬉しいですよ本当に。",
             "text_en": "No, I'm really happy, truly."
         },
         {
-            "scene_id": "scene_030",
+            "scene_id": "scene_031",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "...なら、よかった。",
             "text_en": "...Then that's all I need."
         },
         {
-            "scene_id": "scene_031",
+            "scene_id": "scene_032",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（俺のことを想って作ってくれたんだ。）",
             "text_en": "(She made this thinking of me.)"
         },
         {
-            "scene_id": "scene_032",
+            "scene_id": "scene_033",
             "type": "dialogue",
             "character": "player",
             "text_ja": "ありがとうございます。これ、大切にします。",
             "text_en": "Thank you. I'll take good care of this."
         },
         {
-            "scene_id": "scene_033",
+            "scene_id": "scene_034",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.happy",
             "text_ja": "うん。",
             "text_en": "Good."
         },
         {
-            "scene_id": "scene_034",
+            "scene_id": "scene_035",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（嬉しいな。彼女の手作りなんて。）",
             "text_en": "(This is wonderful. Something handmade by my girlfriend.)"
-        },
-        {
-            "scene_id": "scene_035",
-            "type": "character_hide",
-            "character": "shiori_nagayama"
         },
         {
             "scene_id": "scene_036",

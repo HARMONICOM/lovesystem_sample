@@ -20,7 +20,6 @@
             "scene_id": "scene_003",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "こんにちは。永山です。手の具合はどう？",
             "text_en": "Hello. This is Nagayama. How's your hand?"
         },
@@ -54,7 +53,6 @@
             "scene_id": "scene_008",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.normal",
             "text_ja": "よかった！安心したよ。でも無理しないでね。",
             "text_en": "That's great! What a relief. But don't push yourself."
         },

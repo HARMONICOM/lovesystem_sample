@@ -1,7 +1,7 @@
 {
     "event_id": "shiori_female_random_convenience",
-    "title_ja": "仕事帰りに鉢合わせ",
-    "title_en": "Bumping Into Her After Work",
+    "title_ja": "学校帰りに鉢合わせ",
+    "title_en": "Bumping Into Her After School",
     "character_id": "shiori_nagayama",
     "scenes": [
         {
@@ -29,16 +29,16 @@
             "scene_id": "scene_004",
             "type": "dialogue",
             "character": "player",
-            "text_ja": "仕事帰りです。永山さんも？",
-            "text_en": "Just on my way back. You too?"
+            "text_ja": "学校帰りです。永山さんも？",
+            "text_en": "Just came from school. You too?"
         },
         {
             "scene_id": "scene_005",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "そう。今日は遅番で。",
-            "text_en": "Yeah. I had the late shift today."
+            "text_ja": "うん。仕事帰り。",
+            "text_en": "Yeah. I'm on my way home from work."
         },
         {
             "scene_id": "scene_006",

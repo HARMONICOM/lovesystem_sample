@@ -14,7 +14,6 @@
             "scene_id": "scene_002",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "今日、どこか行かない？",
             "text_en": "Want to go somewhere today?"
         },
@@ -29,7 +28,6 @@
             "scene_id": "scene_004",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.smile",
             "text_ja": "じゃあ河川敷にしようか。あそこ好きなんだよね。",
             "text_en": "How about the riverside? I really like it there."
         },
@@ -116,8 +114,8 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "ある、ある。...なんか、{{player.given_name}}ちゃんと話してると思わぬところで共感できて嬉しい。",
-            "text_en": "Exactly. ...You know, talking with you, {{player.given_name}}-chan, I'm always surprised by how much we agree on."
+            "text_ja": "ある、ある...なんか、{{player.given_name}}ちゃんと話してると思わぬところで共感できて嬉しい。",
+            "text_en": "Exactly... You know, talking with you, {{player.given_name}}-chan, I'm always surprised by how much we agree on."
         },
         {
             "scene_id": "scene_017",
@@ -153,8 +151,8 @@
             "scene_id": "scene_021",
             "type": "dialogue",
             "character": "player",
-            "text_ja": "それは嬉しいな。",
-            "text_en": "That's really nice to hear."
+            "text_ja": "嬉しいです。",
+            "text_en": "I'm glad to hear that."
         },
         {
             "scene_id": "scene_022",
@@ -166,20 +164,26 @@
         {
             "scene_id": "scene_023",
             "type": "dialogue",
+            "text_ja": "...",
+            "text_en": "..."
+        },
+        {
+            "scene_id": "scene_024",
+            "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
             "text_ja": "今日はありがとう。高校生を遅くまで連れまわしちゃダメだよね。",
             "text_en": "Thanks for today. I shouldn't be keeping a high schooler out so late."
         },
         {
-            "scene_id": "scene_024",
+            "scene_id": "scene_025",
             "type": "dialogue",
             "character": "player",
             "text_ja": "はい。そろそろ帰りますね。",
             "text_en": "Yeah. I should probably head back."
         },
         {
-            "scene_id": "scene_025",
+            "scene_id": "scene_026",
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
@@ -187,7 +191,7 @@
             "text_en": "See you. Until next time."
         },
         {
-            "scene_id": "scene_026",
+            "scene_id": "scene_027",
             "type": "end",
             "flags_set": ["shiori_female_holiday_walk_done"],
             "stat_changes": {
