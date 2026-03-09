@@ -5,7 +5,7 @@
     "given_name_ja": "詩織",
     "given_name_en": "Shiori",
     "age": 23,
-    "default_scale": 1.6,
+    "default_scale": 1.65,
     "gender": "female",
     "target_player_gender": [
         "male",
@@ -189,7 +189,7 @@
             "title_ja": "詩織のテーマ",
             "title_en": "Shiori's Theme",
             "loop": true,
-            "volume": 1.1
+            "volume": 1.0
         },
         "shiori_dating": {
             "path": "audio/shiori_dating.mp3",

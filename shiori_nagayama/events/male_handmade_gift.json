@@ -286,10 +286,10 @@
         {
             "scene_id": "scene_042",
             "type": "end",
-            "flags_set": ["shiori_male_handmade_gift_done"],
+            "flags_set": ["shiori_male_handmade_gift_done", "shiori_nagayama_leave_today"],
             "stat_changes": {
-                "affection": 4,
-                "intimacy": 4
+                "affection": 7,
+                "intimacy": 7
             }
         }
     ]

@@ -1,7 +1,7 @@
 {
     "event_id": "shiori_male_dating_shopping",
-    "title_ja": "休日のお買い物",
-    "title_en": "Weekend Shopping",
+    "title_ja": "お買い物を一緒に",
+    "title_en": "Shopping Together",
     "character_id": "shiori_nagayama",
     "scenes": [
         {
@@ -185,9 +185,10 @@
         {
             "scene_id": "scene_026",
             "type": "end",
+            "flags_set": ["shiori_nagayama_leave_today"],
             "stat_changes": {
-                "affection": 3,
-                "intimacy": 3
+                "affection": 7,
+                "intimacy": 7
             }
         }
     ]

@@ -76,10 +76,10 @@
         {
             "scene_id": "scene_011",
             "type": "end",
-            "flags_set": ["shiori_male_date_promise"],
+            "flags_set": ["shiori_male_date_promise", "shiori_nagayama_leave_today"],
             "stat_changes": {
-                "affection": 3,
-                "intimacy": 3
+                "affection": 7,
+                "intimacy": 7
             }
         }
     ]

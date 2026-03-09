@@ -312,27 +312,32 @@
         },
         {
             "scene_id": "scene_046",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_047",
             "type": "dialogue",
             "text_ja": "彼女は深く頭を下げると行ってしまった。",
             "text_en": "She gave a small bow and left."
         },
         {
-            "scene_id": "scene_047",
+            "scene_id": "scene_048",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（...なんか、すごい人だったな。）",
             "text_en": "(...What a remarkable person.)"
         },
         {
-            "scene_id": "scene_048",
+            "scene_id": "scene_049",
             "type": "dialogue",
             "text_ja": "名刺を見つめながら、私はしばらくその場に立ち尽くしていた。",
             "text_en": "I stood there for a moment, staring at the business card."
         },
         {
-            "scene_id": "scene_049",
+            "scene_id": "scene_050",
             "type": "end",
-            "flags_set": ["shiori_female_met"]
+            "flags_set": ["shiori_female_met_nagayama", "shiori_nagayama_leave_today"]
         }
     ]
 }

@@ -382,10 +382,10 @@
         {
             "scene_id": "scene_054",
             "type": "end",
-            "flags_set": ["shiori_female_closer_feelings_done"],
+            "flags_set": ["shiori_female_closer_feelings_done", "shiori_nagayama_leave_today"],
             "stat_changes": {
-                "affection": 5,
-                "intimacy": 5
+                "affection": 7,
+                "intimacy": 7
             }
         }
     ]

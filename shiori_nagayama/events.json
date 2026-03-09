@@ -5,7 +5,6 @@
             "title_ja": "出会い",
             "title_en": "First Meeting",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [
                     {"operator": ">=", "value": 6},
@@ -28,10 +27,9 @@
             "title_ja": "初めての連絡",
             "title_en": "First Contact",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 8}],
-                "locations": ["my_room"],
+                "locations": ["my_room", "school_classroom"],
                 "time": ["evening"],
                 "required_flags": ["shiori_male_met"],
                 "forbidden_flags": ["shiori_male_first_contact_done"],
@@ -48,7 +46,6 @@
             "title_ja": "怪我の経過確認",
             "title_en": "Injury Checkup",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 10}],
                 "locations": ["shopping_mall"],
@@ -68,7 +65,6 @@
             "title_ja": "趣味の話",
             "title_en": "Hobby Talk",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 12}],
                 "locations": ["shopping_mall"],
@@ -88,16 +84,12 @@
             "title_ja": "仕事の話",
             "title_en": "Work Talk",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 14}],
-                "locations": ["cafe"],
+                "locations": ["my_room", "school_classroom"],
                 "time": ["evening", "night"],
                 "required_flags": ["shiori_male_hobby_talk_done"],
                 "forbidden_flags": ["shiori_male_work_talk_done"],
-                "stats": {
-                    "affection": {"operator": ">=", "value": 40}
-                },
                 "player_gender": ["male"]
             },
             "script_file": "events/male_work_talk.json",
@@ -110,7 +102,6 @@
             "title_ja": "訪問看護での出来事",
             "title_en": "An Incident During Home Care",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 16}],
                 "locations": ["park"],
@@ -132,10 +123,9 @@
             "title_ja": "心の距離が縮まる",
             "title_en": "Growing Closer",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 18}],
-                "locations": ["my_room"],
+                "locations": ["my_room", "home"],
                 "time": ["evening"],
                 "required_flags": ["shiori_male_visiting_nurse_done"],
                 "forbidden_flags": ["shiori_male_closer_feelings_done"],
@@ -154,10 +144,9 @@
             "title_ja": "告白・交際開始",
             "title_en": "Confession",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 20}],
-                "locations": ["my_room"],
+                "locations": ["my_room", "home"],
                 "time": ["evening"],
                 "required_flags": ["shiori_male_closer_feelings_done"],
                 "forbidden_flags": ["shiori_male_confession_done"],
@@ -179,7 +168,7 @@
             "default_bgm": "shiori_dating",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 22}],
-                "locations": ["cafe"],
+                "locations": ["my_room", "home"],
                 "time": ["evening", "night"],
                 "required_flags": ["shiori_male_confession_accepted"],
                 "forbidden_flags": ["shiori_male_handmade_gift_done"],
@@ -200,7 +189,7 @@
             "default_bgm": "shiori_dating",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 24}],
-                "locations": ["my_room"],
+                "locations": ["my_room", "home"],
                 "time": ["afternoon", "evening"],
                 "required_flags": ["shiori_male_handmade_gift_done"],
                 "forbidden_flags": ["shiori_male_holiday_walk_done"],
@@ -218,10 +207,10 @@
             "title_ja": "仕事帰りに鉢合わせ",
             "title_en": "Bumping Into Her After Work",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
+                "day": [{"operator": ">=", "value": 12}],
                 "locations": ["convenience_store"],
-                "time": ["night"],
+                "time": ["evening", "night"],
                 "required_flags": ["shiori_male_injury_checkup_done"],
                 "forbidden_flags": ["shiori_male_confession_done"],
                 "stats": {},
@@ -230,15 +219,15 @@
             "script_file": "events/male_random_convenience.json",
             "once_only": false,
             "priority": 50,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_male_random_mall",
             "title_ja": "ショッピングモールで鉢合わせ",
             "title_en": "Bumping Into Her at the Mall",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
+                "day": [{"operator": ">=", "value": 13}],
                 "locations": ["shopping_mall"],
                 "time": ["evening", "night"],
                 "required_flags": ["shiori_male_injury_checkup_done"],
@@ -249,15 +238,15 @@
             "script_file": "events/male_random_mall.json",
             "once_only": false,
             "priority": 50,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_male_random_station",
             "title_ja": "駅で鉢合わせ",
             "title_en": "Bumping Into Her at the Station",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
+                "day": [{"operator": ">=", "value": 14}],
                 "locations": ["station"],
                 "time": ["evening", "night"],
                 "required_flags": ["shiori_male_injury_checkup_done"],
@@ -268,7 +257,7 @@
             "script_file": "events/male_random_station.json",
             "once_only": false,
             "priority": 50,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_male_dating_way_home",
@@ -277,7 +266,7 @@
             "type": "random",
             "default_bgm": "shiori_dating",
             "required_conditions": {
-                "locations": ["cafe"],
+                "locations": ["school_classroom", "my_room", "home"],
                 "time": ["evening"],
                 "required_flags": ["shiori_male_confession_accepted"],
                 "forbidden_flags": [],
@@ -288,16 +277,16 @@
             "script_file": "events/male_dating_way_home.json",
             "once_only": false,
             "priority": 80,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_male_dating_shopping",
-            "title_ja": "休日のお買い物",
-            "title_en": "Weekend Shopping",
+            "title_ja": "お買い物を一緒に",
+            "title_en": "Shopping Together",
             "type": "random",
             "default_bgm": "shiori_dating",
             "required_conditions": {
-                "locations": ["shopping_mall"],
+                "locations": ["school_classroom", "my_room", "home"],
                 "time": ["afternoon", "evening"],
                 "required_flags": ["shiori_male_confession_accepted"],
                 "forbidden_flags": [],
@@ -308,7 +297,7 @@
             "script_file": "events/male_dating_shopping.json",
             "once_only": false,
             "priority": 80,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_male_dating_night_park",
@@ -317,7 +306,7 @@
             "type": "random",
             "default_bgm": "shiori_dating",
             "required_conditions": {
-                "locations": ["park"],
+                "locations": ["my_room", "home"],
                 "time": ["night"],
                 "required_flags": ["shiori_male_confession_accepted"],
                 "forbidden_flags": [],
@@ -328,7 +317,7 @@
             "script_file": "events/male_dating_night_park.json",
             "once_only": false,
             "priority": 80,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_male_date_promise",
@@ -342,7 +331,7 @@
                     {"operator": "<=", "value": 26}
                 ],
                 "locations": ["my_room"],
-                "time": ["evening"],
+                "time": ["evening", "night"],
                 "required_flags": ["shiori_male_confession_accepted"],
                 "forbidden_flags": ["shiori_male_date_promise"],
                 "stats": {},
@@ -384,7 +373,7 @@
             "required_conditions": {
                 "day": [{"operator": "==", "value": 28}],
                 "locations": ["my_room"],
-                "time": ["night"],
+                "time": ["dayEnd"],
                 "required_flags": ["shiori_male_date_promise"],
                 "forbidden_flags": ["shiori_male_date_main_done"],
                 "stats": {},
@@ -418,7 +407,6 @@
             "title_ja": "出会い",
             "title_en": "First Meeting",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [
                     {"operator": ">=", "value": 6},
@@ -441,7 +429,6 @@
             "title_ja": "初めての連絡",
             "title_en": "First Contact",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 8}],
                 "locations": ["my_room"],
@@ -461,7 +448,6 @@
             "title_ja": "怪我の経過確認",
             "title_en": "Injury Checkup",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 10}],
                 "locations": ["shopping_mall"],
@@ -481,7 +467,6 @@
             "title_ja": "趣味の話",
             "title_en": "Hobby Talk",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 12}],
                 "locations": ["my_room"],
@@ -501,16 +486,12 @@
             "title_ja": "仕事の話",
             "title_en": "Work Talk",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 14}],
                 "locations": ["cafe"],
                 "time": ["evening", "night"],
                 "required_flags": ["shiori_female_hobby_talk_done"],
                 "forbidden_flags": ["shiori_female_work_talk_done"],
-                "stats": {
-                    "affection": {"operator": ">=", "value": 40}
-                },
                 "player_gender": ["female"]
             },
             "script_file": "events/female_work_talk.json",
@@ -523,7 +504,6 @@
             "title_ja": "訪問看護での出来事",
             "title_en": "An Incident During Home Care",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 16}],
                 "locations": ["park"],
@@ -545,7 +525,6 @@
             "title_ja": "心の距離が縮まる",
             "title_en": "Growing Closer",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 18}],
                 "locations": ["my_room"],
@@ -567,7 +546,6 @@
             "title_ja": "休日の散歩",
             "title_en": "Holiday Walk",
             "type": "story",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "day": [{"operator": ">=", "value": 20}],
                 "locations": ["my_room"],
@@ -587,8 +565,8 @@
             "title_ja": "仕事帰りに鉢合わせ",
             "title_en": "Bumping Into Her After Work",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
+                "day": [{"operator": ">=", "value": 12}],
                 "locations": ["convenience_store"],
                 "time": ["night"],
                 "required_flags": ["shiori_female_injury_checkup_done"],
@@ -599,15 +577,15 @@
             "script_file": "events/female_random_convenience.json",
             "once_only": false,
             "priority": 50,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_female_random_mall",
             "title_ja": "ショッピングモールで鉢合わせ",
             "title_en": "Bumping Into Her at the Mall",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
+                "day": [{"operator": ">=", "value": 13}],
                 "locations": ["shopping_mall"],
                 "time": ["evening", "night"],
                 "required_flags": ["shiori_female_injury_checkup_done"],
@@ -618,15 +596,15 @@
             "script_file": "events/female_random_mall.json",
             "once_only": false,
             "priority": 50,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_female_random_station",
             "title_ja": "駅で鉢合わせ",
             "title_en": "Bumping Into Her at the Station",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
+                "day": [{"operator": ">=", "value": 14}],
                 "locations": ["station"],
                 "time": ["evening"],
                 "required_flags": ["shiori_female_injury_checkup_done"],
@@ -637,14 +615,13 @@
             "script_file": "events/female_random_station.json",
             "once_only": false,
             "priority": 50,
-            "cooldown_days": 5
+            "cooldown_days": 3
         },
         {
             "id": "shiori_female_closer_way_home",
             "title_ja": "帰り道を一緒に",
             "title_en": "Walking Home Together",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "locations": ["cafe"],
                 "time": ["evening"],
@@ -663,7 +640,6 @@
             "title_ja": "休日のお買い物",
             "title_en": "Weekend Shopping",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "locations": ["shopping_mall"],
                 "time": ["afternoon", "evening"],
@@ -682,7 +658,6 @@
             "title_ja": "夜の公園",
             "title_en": "Night at the Park",
             "type": "random",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "locations": ["park"],
                 "time": ["night"],
@@ -737,7 +712,6 @@
             "title_ja": "友達みたいな関係",
             "title_en": "Like Friends",
             "type": "normal",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "player_gender": ["male"],
                 "required_flags": ["shiori_male_met"],
@@ -766,7 +740,6 @@
             "title_ja": "大切な友達",
             "title_en": "A Precious Friend",
             "type": "best",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "player_gender": ["female"],
                 "required_flags": ["shiori_female_met"],
@@ -781,7 +754,6 @@
             "title_ja": "気軽に話せる仲",
             "title_en": "Easy Company",
             "type": "normal",
-            "default_bgm": "shiori_theme",
             "required_conditions": {
                 "player_gender": ["female"],
                 "required_flags": ["shiori_female_met"],

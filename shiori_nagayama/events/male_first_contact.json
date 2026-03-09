@@ -86,7 +86,11 @@
         {
             "scene_id": "scene_013",
             "type": "end",
-            "flags_set": ["shiori_male_first_contact_done"]
+            "flags_set": ["shiori_male_first_contact_done"],
+            "stats_change": {
+                "affection": 7,
+                "intimacy": 7
+            }
         }
     ]
 }

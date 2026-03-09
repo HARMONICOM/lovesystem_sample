@@ -184,9 +184,10 @@
         {
             "scene_id": "scene_028",
             "type": "end",
+            "flags_set": ["shiori_nagayama_leave_today"],
             "stat_changes": {
-                "affection": 3,
-                "intimacy": 3
+                "affection": 7,
+                "intimacy": 7
             }
         }
     ]

@@ -396,10 +396,10 @@
         {
             "scene_id": "scene_059",
             "type": "end",
-            "flags_set": ["shiori_male_date_main_done"],
+            "flags_set": ["shiori_male_date_main_done", "shiori_nagayama_leave_today"],
             "stat_changes": {
-                "affection": 5,
-                "intimacy": 5
+                "affection": 7,
+                "intimacy": 7
             }
         }
     ]

@@ -62,7 +62,7 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.normal",
-            "text_ja": "今日、ちょっとだけ疲れちゃって。でも{{player.family_name}}くんと会ったら落ち着いた。",
+            "text_ja": "今日、ちょっとだけ疲れちゃって。でも{{player.given_name}}くんと会ったら落ち着いた。",
             "text_en": "I was a bit worn out today. But meeting up with you helped me settle down."
         },
         {
@@ -77,8 +77,8 @@
             "type": "dialogue",
             "character": "shiori_nagayama",
             "portrait": "casual.smile",
-            "text_ja": "{{player.family_name}}くんって、なんか安心するんだよね。いつも。",
-            "text_en": "You always make me feel safe somehow, {{player.family_name}}."
+            "text_ja": "{{player.given_name}}くんって、なんか安心するんだよね。いつも。",
+            "text_en": "You always make me feel safe somehow, {{player.given_name}}."
         },
         {
             "scene_id": "scene_012",
@@ -140,9 +140,10 @@
         {
             "scene_id": "scene_020",
             "type": "end",
+            "flags_set": ["shiori_nagayama_leave_today"],
             "stat_changes": {
-                "affection": 2,
-                "intimacy": 2
+                "affection": 7,
+                "intimacy": 7
             }
         }
     ]

@@ -69,7 +69,7 @@
             "scene_id": "scene_010",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.serious",
+            "portrait": "casual.normal",
             "text_ja": "最近、{{player.family_name}}くんのことよく考えるんだよね。",
             "text_en": "Lately, I keep thinking about you, {{player.family_name}}."
         },
@@ -84,7 +84,7 @@
             "scene_id": "scene_012",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.shy",
+            "portrait": "casual.smile",
             "text_ja": "一緒にいると楽しいし、話しやすいし。いてくれるとほっとするし。",
             "text_en": "Being with you is fun, you're easy to talk to. I feel at ease when you're around."
         },
@@ -99,7 +99,7 @@
             "scene_id": "scene_014",
             "type": "dialogue",
             "character": "shiori_nagayama",
-            "portrait": "casual.serious",
+            "portrait": "casual.smile",
             "text_ja": "これって、たぶん普通の友達じゃないと思うんだよね。私。",
             "text_en": "I don't think this is just a normal friendship. At least, not for me."
         },
@@ -138,8 +138,8 @@
                     "text_ja": "俺、あなたのことが好きです、と答える",
                     "text_en": "I like you, and tell her that",
                     "stat_changes": {
-                        "affection": 5,
-                        "intimacy": 5
+                        "affection": 7,
+                        "intimacy": 7
                     },
                     "next_scene": "scene_q1a1_001"
                 },
@@ -289,7 +289,7 @@
         {
             "scene_id": "scene_q1a1_end",
             "type": "end",
-            "flags_set": ["shiori_male_confession_done", "shiori_male_confession_accepted"],
+            "flags_set": ["shiori_male_confession_done", "shiori_male_confession_accepted", "shiori_nagayama_leave_today"],
             "relationship": "dating"
         },
         {
@@ -348,7 +348,7 @@
         {
             "scene_id": "scene_q1a2_end",
             "type": "end",
-            "flags_set": ["shiori_male_confession_done", "shiori_male_confession_rejected"]
+            "flags_set": ["shiori_male_confession_done", "shiori_male_confession_rejected", "shiori_nagayama_leave_today"]
         }
     ]
 }

@@ -166,8 +166,8 @@
                     "text_ja": "いいですよ、と答える",
                     "text_en": "Sure, that sounds good",
                     "stat_changes": {
-                        "affection": 3,
-                        "intimacy": 4
+                        "affection": 7,
+                        "intimacy": 7
                     },
                     "next_scene": "scene_q1a1_001"
                 },
@@ -341,12 +341,17 @@
         },
         {
             "scene_id": "scene_q1a1_024",
+            "type": "character_hide",
+            "character": "shiori_nagayama"
+        },
+        {
+            "scene_id": "scene_q1a1_025",
             "type": "dialogue",
             "text_ja": "彼女はそう言って、手を振って去っていった。",
             "text_en": "She said this with a wave and left."
         },
         {
-            "scene_id": "scene_q1a1_025",
+            "scene_id": "scene_q1a1_026",
             "type": "dialogue",
             "character": "player",
             "text_ja": "（...また会えるかな。）",
@@ -355,7 +360,7 @@
         {
             "scene_id": "scene_q1a1_end",
             "type": "end",
-            "flags_set": ["shiori_male_injury_checkup_done"]
+            "flags_set": ["shiori_male_injury_checkup_done", "shiori_nagayama_leave_today"]
         },
         {
             "scene_id": "scene_q1a2_001",
@@ -409,7 +414,7 @@
         {
             "scene_id": "scene_q1a2_end",
             "type": "end",
-            "flags_set": ["shiori_male_injury_checkup_done"]
+            "flags_set": ["shiori_male_injury_checkup_done", "shiori_nagayama_leave_today"]
         }
     ]
 }
